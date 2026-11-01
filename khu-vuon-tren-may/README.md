@@ -5,6 +5,23 @@ Code thuần HTML/CSS/JS: **không cần cài thư viện, không cần build**.
 
 **Admin tổng: hothanhthuy309@gmail.com** (đã ghi sẵn trong `supabase/schema.sql` và `js/config.js`). Cô đăng kí tài khoản thầy cô bằng đúng email này thì sẽ thấy mục **Quản trị**.
 
+## Phiên bản 4.4
+- Đảo Trò Chơi: 2 trò cả lớp + 4 trò riêng: 🎂 Tiệm bánh mây (trả lời đúng nhận nguyên liệu, nướng bánh), 🐭 Đập chuột khoa học (4 chuột = 4 đáp án, 15 giây/câu), 🃏 Lật thẻ ghép đôi, ⚡ Đúng hay Sai (60 giây).
+- Giọt mây 💧 nhận từ trò chơi (tối đa 80/ngày) để mua đồ ở Tủ đồ: vương miện, mũ phù thủy, áo choàng, áo blouse, vest, võ phục, váy công chúa, váy hoa, áo dài…
+- Đặt tên cho nhân vật trong Tủ đồ (hiện trên đầu nhân vật).
+- Đảo Giam Giữ: cô bấm 🔒 Giam ở danh sách học sinh, hoặc máy tự giam khi em rời trang bài kiểm tra 2 lần. Em phải trả lời đúng 5 câu mới về quảng trường. Sáng thứ Hai có bảng tin danh sách bị giam.
+- Thí nghiệm và mô phỏng 3D to rộng hơn.
+
+## Phiên bản 4.3
+- Trang đầu kiểu mới: mây Tí Nị ở giữa, tên web, 2 thẻ chọn Học sinh / Thầy cô, đồi cỏ và hoa ở dưới; bấm thẻ thì hiện khung đăng nhập.
+
+## Phiên bản 4.2
+- Báo cáo → 📊 Phân tích đúng/sai: % đúng ngay theo từng em × từng bài (tô màu xanh/vàng/đỏ) và các câu cả lớp hay sai kèm hiểu nhầm, gợi ý giảng lại.
+- Sửa lỗi nhập đúng mã lớp mà báo \"Không tìm thấy bạn này\".
+
+## Phiên bản 4.1
+- Hiện số phiên bản ở chân trang đầu và góc thầy cô. Mã lớp dạng 6A1-AB, mật khẩu chung của lớp, học sinh tự tạo mật khẩu riêng.
+
 ## Cập nhật bản 3
 - **Không còn Chế độ thử**: web chỉ chạy với Supabase thật. Chưa điền khóa trong `js/config.js` thì trang đầu hiện hướng dẫn cài đặt.
 - **Trang mở đầu mới**: 3 hòn đảo hoạt hình chuyển động, khung đăng nhập có 2 thẻ Học sinh / Giáo viên.
