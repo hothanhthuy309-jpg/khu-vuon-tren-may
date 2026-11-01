@@ -1,89 +1,117 @@
 # Khu vườn trên mây – KHTN 6
 
-Web học Hóa KHTN 6 (Bài 9–17) theo bản kế hoạch "Khu vườn trên mây – bản nháp 2".
-Code thuần HTML/CSS/JS: **không cần cài thư viện, không cần build**. Vercel chỉ việc phục vụ file tĩnh, Supabase lưu dữ liệu.
+Web học Hóa KHTN 6 (Bài 9–17) theo bản kế hoạch "Khu vườn trên mây".
+Code thuần HTML/CSS/JS: **không cần cài thư viện, không cần build**. Vercel phục vụ file tĩnh và 1 hàm nhỏ cho Tí Nị AI, Supabase lưu dữ liệu.
 
-## Bản này đã có (Giai đoạn 1–3, cùng Bài 9 và Bài 10)
+**Admin tổng: hothanhthuy309@gmail.com** (đã ghi sẵn trong `supabase/schema.sql` và `js/config.js`). Cô đăng kí tài khoản thầy cô bằng đúng email này thì sẽ thấy mục **Quản trị**.
 
-| Phần | Đã làm |
+## Cập nhật bản 3
+- **Không còn Chế độ thử**: web chỉ chạy với Supabase thật. Chưa điền khóa trong `js/config.js` thì trang đầu hiện hướng dẫn cài đặt.
+- **Trang mở đầu mới**: 3 hòn đảo hoạt hình chuyển động, khung đăng nhập có 2 thẻ Học sinh / Giáo viên.
+- **Giao diện sắc nét, gọn**: viền đậm, chữ nhỏ lại; Góc thầy cô vừa một màn hình (Lớp của tôi chia thẻ Tổng quan · Học sinh · Mở bài; Duyệt gợi ý chia theo từng hạt).
+- **Thêm lớp** bằng nút ＋ cạnh ô chọn lớp (mỗi lớp tự có mã 6 kí tự riêng); **thêm học sinh** ở thẻ Học sinh (dán cả danh sách).
+- **9 thí nghiệm mô phỏng 3D** trên bàn thí nghiệm: cốc thủy tinh, đèn cồn, kiềng, nhiệt kế, phễu lọc, phễu chiết, mạch điện…; xoay, phóng to bằng chuột.
+- **Ông Kể Chuyện có giọng đọc**: ưu tiên giọng AI Gemini (trầm ấm, diễn cảm) khi Vercel có `GEMINI_API_KEY` (không cần bật chế độ AI cho Tí Nị); nếu chưa có khóa thì dùng giọng tiếng Việt của máy (tốt nhất trên trình duyệt **Microsoft Edge**: giọng NamMinh). Cần chạy lại `schema.sql`.
+
+## Cập nhật bản 2
+- **Vương quốc chia theo chức năng**: Quảng trường lớn ở giữa (Tiệm áo mây, Bảng xếp hạng, Bảng tin, Góc kể chuyện, cỏ dại) và 6 đảo: 📚 Quần đảo Học Tập (mỗi bài là một đảo nhỏ, bài chưa mở phủ sương) · ⚗️ Đảo Thí Nghiệm · 🔭 Đảo Mô Phỏng · 🎮 Đảo Trò Chơi · 🌱 Đảo Vườn Mây · 🔥 Xưởng Mây (Lò Mây + Công trường).
+- **Bài học chỉ hiện khi cô mở**, xếp theo 3 chủ đề. Câu hỏi trò chơi, cỏ dại quảng trường và UFO đều lấy từ các bài cô đã mở.
+- **Cỏ dại ở quảng trường**: bấm vào cỏ → trả lời câu hỏi, đúng ngay lần đầu được +5 điểm bảng xếp hạng. Cỏ mọc lại dần (tối đa 6 bụi).
+- **Vườn Mây 3D** với Cô Mây đội nón rơm, cầm bình tưới đi trông vườn.
+- **Ông Kể Chuyện** kể bằng giọng đọc (giọng AI Gemini khi cô bật chế độ AI, không thì giọng tiếng Việt của máy), nhạc nền tự tắt khi ông kể, nghe xong có câu đố.
+- **Tí Nị là khung chat bên cạnh câu hỏi**: gợi ý 3 bậc đã duyệt, không lộ đáp án.
+- **Gọi kiểm tra bài cũ** (Góc thầy cô → 🛸): UFO bốc ngẫu nhiên tên một cư dân mây, không gọi trùng, kèm câu hỏi có hình minh họa.
+- Mọi trang tự thu nhỏ cho vừa màn hình, không phải kéo lên kéo xuống.
+- Thẻ trong câu hỏi có hình minh họa nhỏ (🪨 Hòn đá, 📒 Quyển vở…).
+
+## Bản này có đủ 8 giai đoạn
+
+| Phần | Có gì |
 |---|---|
-| Đăng nhập | Mã lớp 6 kí tự + chọn tên + 3 hình bí mật (12 hình mây/hóa học). Sai 5 lần khóa 1 phút. Phiên chỉ trong tab, tự đăng xuất sau 20 phút không thao tác. |
-| Bản đồ 3D (laptop) | Màn hình từ 900 px trở lên: bản đồ Three.js, 9 đảo nổi nối bằng cầu gỗ, chú cừu mây đi bộ tới từng khu, Tí Nị bay theo, Bác Giọt Sương và Cô Thợ Mây đi dạo, bấm "Vào khu" để học. Máy yếu hoặc mất mạng tới thư viện 3D thì tự dùng bản đồ 2D. |
-| Đi lại tự do | Phím W A S D hoặc mũi tên, hoặc bấm chuột vào chỗ muốn tới. Vương quốc rộng hơn, có đảo trung tâm lớn và 9 đảo bài học. |
-| Nhân vật & Tủ đồ | Học sinh là bạn chibi nam hoặc nữ. Tủ đồ (Tiệm áo mây) đổi màu da, tóc, áo, mũ, phụ kiện; vài món mở khi học đủ hạt giống. |
-| Cùng online | Các bạn cùng lớp đang vào web thấy nhau đi lại trong vương quốc (Supabase Realtime, kênh riêng từng lớp). Chế độ thử có 4 bạn ảo, và các tab trên cùng máy thấy nhau. |
-| Trò chuyện lớp | Khung chat có lọc từ tục, giới hạn 120 kí tự, chậm 3 giây giữa 2 tin. Cô tắt được trò chuyện của lớp. Tin lưu trong bảng chat_messages, thầy cô xem và xóa được. |
-| Bảng xếp hạng | Điểm mây = hạt giống đã học × 10 + cỏ dại đã tự sửa × 5, xếp trong lớp. |
-| Bản đồ 2D (điện thoại) | 9 khu trên mây, cầu cầu vồng, khu chưa mở phủ sương, khu học xong nở hoa và hiện cầu vồng. Vừa một màn hình ở 390 px và 1366×768. |
-| Bài 9, Bài 10 | Mỗi bài 3 hạt giống × (Khám phá → 3 câu Biết/Hiểu/Vận dụng). Đủ 4 dạng câu: trắc nghiệm, điền khuyết, ghép thẻ, phân loại. Mọi đáp án sai có mã hiểu nhầm. Gợi ý 3 bậc "Hỏi Tí Nị" (gợi ý soạn sẵn). Sai 2 lần mới hiện nút xem lời giải. |
-| Thí nghiệm ảo | Đun nước đá: Dự đoán → Làm (đồ thị nhiệt độ vẽ dần, đoạn nằm ngang ở 0 °C và 100 °C) → Kết luận, Tí Nị nhận xét theo 3 tiêu chí, ghi vào Nhật ký. Không tính vào số liệu. |
-| Vườn Mây | 5×5 ô, gieo hạt mây, hạt → mầm → cây non → cây lớn, thu hoạch ra nguyên liệu của bài, thẻ lý thuyết bay vào Sổ tay. |
-| Cỏ dại | Sai lần đầu thì mọc cỏ mang tên hiểu nhầm (vd "Cỏ Nước-đá-nóng-chảy-vẫn-tăng-nhiệt"). Nhổ cỏ = làm lại đúng câu đó (không dùng Tí Nị, có nút xem lại lý thuyết). Đúng thì cỏ thành bong bóng, +1 hạt mây, ghi "Đã tự sửa". Cỏ để lâu thì to hơn và làm cây trên ô đó lớn chậm hơn chút, không làm mất gì. |
-| Sổ tay | Thẻ lý thuyết, túi nguyên liệu, nhật ký thí nghiệm, danh sách cỏ đã tự sửa. |
-| Âm thanh | Nhạc nền chill tự tạo (hợp âm êm, bass nhẹ, chuông lấp lánh). "ting", "bụp", "tách tách", mưa lách tách, "xèo", chuông, nhạc reo – tạo bằng Web Audio nên không lo bản quyền. Âm lượng về 5% mỗi lần đăng nhập, có nút loa và công tắc "Tắt nhạc cả lớp". |
-| Góc thầy cô | 4 mục. **Hôm nay**: 4 số (đã vào, đúng ngay, tự sửa, còn cỏ), 3 cỏ cả lớp hay mắc kèm gợi ý giảng lại, em cần kèm, Chiếu lên tivi (có "cỏ dại khổng lồ"), Trực tiếp. **Lớp của tôi**: mã lớp to, công tắc mở từng khu, tắt nhạc, thời gian cây lớn, thêm/xóa học sinh, đổi hình, in thẻ đăng nhập. **Trò chơi và kiểm tra**: chỗ chờ cho giai đoạn 7–8. **Báo cáo**: phiếu phụ huynh, sao chép dán Zalo hoặc in. |
-| Giảm chuyển động | Máy bật "giảm chuyển động" thì mọi hình đứng yên. |
+| Giao diện | Toàn màn hình. Học sinh luôn đứng trong vương quốc 3D; mỗi trang (bài học, vườn, lò, xây nhà, thí nghiệm, kiểm tra, trò chơi) là một tấm kính trong suốt phủ lên trên, bấm ✕ hoặc phím Esc là về lại vương quốc. Tí Nị luôn ở góc phải dưới màn hình. |
+| Vương quốc 3D (laptop) | 9 đảo bài học + **Đảo Thí Nghiệm** + đảo trung tâm lớn, cầu gỗ, mây, khinh khí cầu, chim. Đi bằng W A S D / mũi tên hoặc bấm chuột, bản đồ nhỏ góc phải (bấm để đi tới). Khu chưa mở phủ sương; khu đang học có ngôi sao; học xong hiện cầu vồng. Điện thoại hoặc máy yếu tự dùng bản đồ 2D. |
+| Các công trình trên đảo trung tâm | **Lò Mây** (ngôi nhà mái cỏ có ống khói, cửa lò rực lửa) → nung nguyên liệu thành vật liệu · **Tiệm áo mây** → Tủ đồ · **Bảng xếp hạng** (bảng gỗ hiện top 3) · **Vườn Mây** (cổng vòm) · **Công trường** (4 lô đất, cần cẩu; nhà em xây hiện lên ở đây) · **Bảng tin** (sáng lên khi có bài kiểm tra). Đến gần bấm **E**. |
+| NPC | Bác Giọt Sương (dẫn ra Vườn), Cô Thợ Mây (dẫn ra Công trường), **Ông Kể Chuyện** (kể chuyện lịch sử hóa học kèm câu đố). |
+| Tủ đồ | Nút 👕 trên cùng bên phải, nút Tủ đồ ở dock, hoặc bước vào Tiệm áo mây: chọn bạn nam/nữ, da, tóc, áo, mũ, phụ kiện. |
+| Cùng online · Chat · Xếp hạng | Thấy bạn cùng lớp đi lại, bong bóng chat trên đầu. Chat lọc từ tục, cô tắt được. Điểm mây = hạt × 10 + cỏ tự sửa × 5 + nhà × 15. |
+| Bài 9–17 | Mỗi bài 3 hạt giống × 3 câu (Biết/Hiểu/Vận dụng), 4 dạng câu, mọi đáp án sai có mã hiểu nhầm, gợi ý 3 bậc. |
+| Đảo Thí Nghiệm | 9 thí nghiệm mô phỏng, mỗi bài 1 cái: phân loại tính chất (B9), đun nước đá + đồ thị (B10), úp cốc lên nến (B11), thử dẫn điện/dẫn nhiệt (B12), thử nguyên liệu (B13), sự cháy và dập lửa (B14), xếp đĩa ăn cân bằng (B15), cho chất vào nước (B16), lọc – cô cạn – chiết (B17). Dự đoán → Làm → Kết luận, Tí Nị chấm 3 tiêu chí, ghi Nhật ký. |
+| Vườn Mây · Cỏ dại | Như cũ: gieo hạt, cây lớn, thu hoạch nguyên liệu; sai lần đầu mọc cỏ mang tên hiểu nhầm, làm lại đúng thì nhổ được. |
+| Lò Mây | 8 công thức (gạch, gốm, thủy tinh, xi măng, thép, cao su, nhựa, gỗ tấm). Chọn nhiên liệu (than/củi/gas) hoặc phơi nắng (chậm ×3). Mỗi mẻ Tí Nị hỏi 1 câu nhỏ. |
+| Xây nhà | Nhận đơn của Cừu, Thỏ, Mèo; chọn vật liệu đúng tính chất cho móng, tường, mái, cửa, cửa sổ, lõi dây, vỏ dây. Chọn sai thì Tí Nị hỏi ngược lại. Nhà xây xong hiện trên Công trường. |
+| Kiểm tra | Kiểm tra đầu bài / cuối bài (8 câu, không gợi ý, làm 1 lần) cô bật theo từng khu; bài kiểm tra cô giao riêng. Báo cáo hiệu quả trước → sau. |
+| Trò chơi cả lớp | **Hack Mật Mã Mây** (trả lời đúng → tinh thể + hộp quà; hộp có khiên, gió, hack két bạn bằng câu đố xếp thứ tự 10 giây) và **Đua khinh khí cầu**. Màn chiếu tivi cho cô, nhạc nhanh dần 30 giây cuối, bục vinh danh, 3 câu cả lớp hay sai. Máy chủ làm trọng tài. |
+| Tí Nị AI | Chế độ "Gợi ý đã duyệt" (mặc định, không cần AI) hoặc "AI" (Gemini, dự phòng Groq) qua `api/tini.js`. Không gửi tên học sinh, lọc để không lộ đáp án, mỗi em tối đa 30 lượt/ngày. Thầy cô dùng Tí Nị soạn nháp câu hỏi. |
+| Góc thầy cô | Hôm nay · Lớp của tôi (mở khu, bật kiểm tra, tắt nhạc/chat, chế độ AI) · Trò chơi và kiểm tra · Bộ câu hỏi (gõ tay, dán từ Excel, nhập .xlsx) · Báo cáo (phiếu phụ huynh, biểu đồ, in PDF) · Duyệt gợi ý Tí Nị · Quản trị (chỉ admin). |
+| Âm thanh | Nhạc nền tự tạo đổi theo nơi (vương quốc, vườn, phòng thí nghiệm, bài học, trò chơi) và ~20 tiếng hiệu ứng. |
 
-**Chưa làm (các giai đoạn sau):** Lò Mây và Xây nhà (GĐ 4), nội dung Bài 11–17 và các thí nghiệm còn lại (GĐ 5), Tí Nị AI qua Gemini/Groq (GĐ 6), kiểm tra đầu/cuối và báo cáo PDF (GĐ 7), Hack Mật Mã Mây, Đua khinh khí cầu, tủ đồ, nhạc nền (GĐ 8). Nguyên liệu học sinh gom bây giờ vẫn được giữ cho Lò Mây sau này.
+## Xem trước nội bộ (không cần Supabase)
 
-## Thử ngay trên máy (Chế độ thử)
+Chỉ dành cho người làm web kiểm tra giao diện: mở `http://localhost:8000/?preview` (dữ liệu lưu tạm trong trình duyệt):
+- Học sinh: mã lớp **MAY666**, chọn Bông (hình ☁️ 🌈 ⭐), Mây hoặc Nắng. Lớp thử mở sẵn cả 9 khu.
+- Thầy cô: **co@demo / 123456** (có cả mục Quản trị để xem thử).
 
-Khi `js/config.js` còn để trống, web chạy ở Chế độ thử, lưu dữ liệu trong trình duyệt:
-- Học sinh: mã lớp **MAY666**, chọn Bông (hình ☁️ 🌈 ⭐), Mây hoặc Nắng. Màn chọn hình có ghi sẵn hình của bạn mẫu.
-- Thầy cô: **co@demo / 123456**.
+Trong thư mục này chạy `python -m http.server 8000` rồi vào http://localhost:8000 (mở thẳng file index.html bằng chuột đôi sẽ không chạy).
 
-Mở thử trên máy: trong thư mục này chạy `python -m http.server 8000` rồi vào http://localhost:8000 (mở thẳng file index.html bằng chuột đôi sẽ không chạy vì trình duyệt chặn đọc file JSON).
+## Đưa lên mạng
 
-## Đưa lên mạng (khoảng 10 phút)
-
-### Bước 1 – Supabase (dự án mới, riêng cho KHTN 6)
-1. Vào https://supabase.com → **New project**, đặt tên ví dụ `khtn6-khu-vuon-tren-may`, chọn vùng **Southeast Asia (Singapore)**.
-2. Mở **SQL Editor** → **New query** → dán toàn bộ file `supabase/schema.sql` → **Run**. Thấy "Success" là xong (chạy lại lần nữa cũng không sao).
-3. Mở **Authentication → Sign In / Providers → Email**: nếu muốn thầy cô đăng kí xong dùng được ngay thì tắt **Confirm email**. Nếu để bật, thầy cô phải bấm link xác nhận trong email trước khi đăng nhập.
-4. Mở **Project Settings → API Keys** (hoặc **Data API**): chép **Project URL** và khóa **anon public** (hoặc **publishable**).
-5. Mở file `js/config.js`, dán vào:
+### Bước 1 – Supabase
+1. https://supabase.com → **New project** (vùng **Southeast Asia (Singapore)**).
+2. **SQL Editor** → **New query** → dán toàn bộ `supabase/schema.sql` → **Run**. Đã có dự án cũ thì cứ chạy lại file mới, không mất dữ liệu (thêm bảng trò chơi, quản trị, bộ câu hỏi, giới hạn Tí Nị).
+3. **Authentication → Sign In / Providers → Email**: tắt **Confirm email** nếu muốn đăng kí xong dùng ngay.
+4. **Project Settings → API Keys**: chép **Project URL** và khóa **anon public**, dán vào `js/config.js`:
    ```js
    export const SUPABASE_URL = "https://xxxx.supabase.co";
    export const SUPABASE_ANON_KEY = "eyJhbGciOi...";
    ```
-   Khóa anon được phép để công khai: dữ liệu đã được khóa bằng bảo mật theo dòng (RLS). **Không** dán khóa `service_role` hay `secret` vào đây.
+   **Không** dán khóa `service_role`/`secret` vào đây.
+5. Đăng kí tài khoản thầy cô bằng **hothanhthuy309@gmail.com** → thấy mục **Quản trị**. Ở đó cô thêm được admin phụ, sửa dòng bản quyền và thông báo trang đầu.
 
-> Đã chạy schema.sql bản cũ? Chạy lại file mới một lần để thêm bảng trò chuyện và bảng xếp hạng. Realtime của Supabase dùng được ngay với khóa anon, không cần bật gì thêm.
+### Bước 2 – Vercel
+1. Đưa toàn bộ thư mục (cả `api/` và `package.json`) lên một repo GitHub.
+2. https://vercel.com → **Add New… → Project** → chọn repo → **Framework Preset: Other**, để trống Build Command → **Deploy**.
+3. (Tuỳ chọn, để bật Tí Nị AI) **Settings → Environment Variables**, thêm:
+   | Tên | Giá trị |
+   |---|---|
+   | `SUPABASE_URL` | giống trong config.js |
+   | `SUPABASE_ANON_KEY` | giống trong config.js |
+   | `GEMINI_API_KEY` | lấy miễn phí ở https://aistudio.google.com/apikey |
+   | `GROQ_API_KEY` | (không bắt buộc) dự phòng, lấy ở https://console.groq.com |
+   | `TINI_DAILY_LIMIT` | (không bắt buộc) mặc định 30 |
+   | `GEMINI_TTS_VOICE` | (không bắt buộc) giọng Ông Kể Chuyện, mặc định `Charon` |
+   Lưu xong bấm **Redeploy**. Trong **Lớp của tôi** chọn chế độ Tí Nị = **AI**. Không thêm khóa thì Tí Nị vẫn chạy bằng gợi ý đã duyệt.
 
-### Bước 2 – Vercel (thư mục mới)
-Cách dễ nhất, không cần cài gì:
-1. Vào https://github.com → **New repository**, tên ví dụ `khtn6-khu-vuon-tren-may` → **uploading an existing file** → kéo toàn bộ nội dung thư mục này vào (giữ nguyên các thư mục `css`, `js`, `data`, `supabase`) → **Commit changes**.
-2. Vào https://vercel.com → **Add New… → Project** → chọn repo vừa tạo → **Framework Preset: Other**, để trống Build Command và Output Directory → **Deploy**.
-3. Vercel cho một đường link dạng `https://khtn6-khu-vuon-tren-may.vercel.app`. Từ nay mỗi lần sửa file trên GitHub, Vercel tự cập nhật.
+### Bước 3 – Kiểm tra nhanh
+- [ ] Thầy cô đăng kí, đăng nhập; email admin thấy mục Quản trị.
+- [ ] Tạo lớp, mở thêm khu, thêm học sinh, in thẻ đăng nhập.
+- [ ] Học sinh vào bằng laptop: thấy vương quốc 3D, đi lại, mở Tủ đồ, chat, xem xếp hạng.
+- [ ] Học 1 hạt, sai 1 câu → nhổ cỏ ở Vườn → nung gạch ở Lò Mây → xây nhà → nhà hiện ở Công trường.
+- [ ] Đảo Thí Nghiệm: làm 1 thí nghiệm → Nhật ký có bài.
+- [ ] Cô tạo Hack Mật Mã Mây, chiếu tivi; 2 học sinh vào chơi.
 
-Nếu máy cô có Node.js: mở Terminal trong thư mục này, gõ `npx vercel --prod` rồi làm theo hướng dẫn.
-
-### Bước 3 – Kiểm tra nhanh sau khi lên mạng
-- [ ] Mở link → **Thầy cô** → **Tạo tài khoản mới** → đăng nhập được.
-- [ ] Tạo lớp → thấy mã lớp 6 kí tự. Bật thêm Bài 10 (lớp mới mặc định chỉ mở Bài 9).
-- [ ] Thêm 2–3 tên học sinh → **In thẻ đăng nhập**.
-- [ ] Trên điện thoại: **Em là học sinh** → mã lớp → tên → 3 hình → vào bản đồ.
-- [ ] Học 1 hạt, cố ý sai 1 câu → ra Vườn Mây thấy cỏ → nhổ cỏ được → gieo hạt.
-- [ ] Quay lại **Hôm nay** của thầy cô → số liệu đổi.
-
-## Sửa nội dung câu hỏi
-Mỗi bài một file trong `data/` (`bai-09.json`, `bai-10.json`). Mở bằng Notepad hoặc VS Code, sửa chữ trong dấu ngoặc kép, giữ nguyên dấu ngoặc và dấu phẩy. Toàn bộ nội dung đang để `"status": "cho-duyet"`; cô duyệt xong đổi thành `"chot"`. Bài mới: tạo `bai-11.json` theo cùng khuôn rồi điền `"file": "data/bai-11.json"` cho khu đó trong `data/lessons.json`.
-
-Mã hiểu nhầm nằm trong mục `misconceptions` của từng bài: `label` là tên cỏ dại, `tip` là gợi ý giảng lại hiện ở mục Hôm nay.
+## Sửa nội dung
+- Câu hỏi: `data/bai-09.json` … `data/bai-17.json` (đang để `"status": "cho-duyet"`, cô duyệt xong đổi thành `"chot"`).
+- Lò Mây và đơn xây nhà: `data/workshop.json`. Câu đố hack: `data/puzzles.json`.
+- Gợi ý Tí Nị: sửa thẳng trong mục **Duyệt gợi ý Tí Nị** của Góc thầy cô.
 
 ## Cấu trúc thư mục
 ```
 index.html            trang duy nhất
-css/style.css         giao diện bông gòn
-js/config.js          khóa Supabase, thời gian cây lớn, thời gian tự đăng xuất
-js/api.js             kết nối Supabase (và Chế độ thử)
-js/student.js         đăng nhập, bản đồ, khu, hạt giống, Vườn Mây, Sổ tay
-js/quiz.js            4 dạng câu, gợi ý 3 bậc
-js/experiment.js      thí nghiệm ảo đun nước đá
-js/map3d.js           bản đồ 3D Three.js cho laptop
-js/teacher.js         Góc thầy cô
-data/*.json           nội dung bài học
-supabase/schema.sql   bảng, bảo mật RLS, hàm đăng nhập học sinh
-vercel.json           cấu hình Vercel
+css/style.css         giao diện toàn màn hình
+js/app.js             điều hướng, giữ vương quốc 3D phía sau
+js/map3d.js           vương quốc 3D Three.js
+js/avatar.js          nhân vật chibi, Tủ đồ
+js/online.js          thấy nhau online (Supabase Realtime)
+js/shell.js           tấm kính trang, Tí Nị góc phải
+js/student.js         đăng nhập, khu, hạt giống, Vườn, Sổ tay, Đảo Thí Nghiệm
+js/experiment.js      9 thí nghiệm mô phỏng
+js/workshop.js        Lò Mây, Xây nhà
+js/tests.js           kiểm tra đầu/cuối, bài cô giao
+js/games.js           Hack Mật Mã Mây, Đua khinh khí cầu, màn chiếu
+js/gamelogic.js       luật trò chơi (Chế độ thử; bản Supabase viết bằng SQL)
+js/teacher.js         Góc thầy cô, Quản trị
+js/sound.js           nhạc nền và hiệu ứng (Web Audio)
+api/tini.js           hàm Vercel gọi Gemini/Groq cho Tí Nị
+data/*.json           nội dung
+supabase/schema.sql   bảng, RLS, hàm cho học sinh, trò chơi, quản trị
 ```
- 
