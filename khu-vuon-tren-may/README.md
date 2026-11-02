@@ -5,6 +5,15 @@ Code thuần HTML/CSS/JS: **không cần cài thư viện, không cần build**.
 
 **Admin tổng: hothanhthuy309@gmail.com** (đã ghi sẵn trong `supabase/schema.sql` và `js/config.js`). Cô đăng kí tài khoản thầy cô bằng đúng email này thì sẽ thấy mục **Quản trị**.
 
+## Phiên bản 4.7
+- 📘 Sách bài tập KHTN 6 (Bài 9–17): 49 bài trong `data/sbt.json` (31 trắc nghiệm, nối, điền từ tự chấm; tự luận có đáp án gợi ý). Vào từ trang mỗi khu bài học. Câu trắc nghiệm SBT cũng được dùng trong trò chơi, cỏ dại, UFO. Làm xong cả bài +1 hạt mây.
+
+## Phiên bản 4.6
+- Giọng đọc Ông Kể Chuyện tạo sẵn: Góc thầy cô → Quản trị → 🎙️ Tạo bằng AI (hoặc tải file ghi âm của cô) cho 9 câu chuyện. File lưu ở Supabase Storage, học sinh nghe ngay. Cần chạy lại schema.sql.
+
+## Phiên bản 4.5
+- Ông Kể Chuyện: chờ giọng AI tối đa 15 giây, quá lâu hoặc lỗi thì tự chuyển sang giọng của máy; cho hàm AI trên Vercel chạy tối đa 60 giây.
+
 ## Phiên bản 4.4
 - Đảo Trò Chơi: 2 trò cả lớp + 4 trò riêng: 🎂 Tiệm bánh mây (trả lời đúng nhận nguyên liệu, nướng bánh), 🐭 Đập chuột khoa học (4 chuột = 4 đáp án, 15 giây/câu), 🃏 Lật thẻ ghép đôi, ⚡ Đúng hay Sai (60 giây).
 - Giọt mây 💧 nhận từ trò chơi (tối đa 80/ngày) để mua đồ ở Tủ đồ: vương miện, mũ phù thủy, áo choàng, áo blouse, vest, võ phục, váy công chúa, váy hoa, áo dài…
