@@ -1,0 +1,181 @@
+{
+  "id": "bai-15",
+  "status": "cho-duyet",
+  "title": "Một số lương thực, thực phẩm",
+  "zone": "Bếp Mây",
+  "misconceptions": {
+    "LT-NHAM": { "label": "Nhầm lương thực với thực phẩm khác", "tip": "Lương thực là cây trồng giàu tinh bột ăn làm món chính: gạo, ngô, khoai, sắn." },
+    "LT-GAO-NHIEU-DAM": { "label": "Gạo chủ yếu cung cấp chất đạm", "tip": "Gạo giàu tinh bột; thịt, cá, trứng, đậu giàu đạm." },
+    "LT-NHAM-CHAT": { "label": "Nhầm chất chính trong lương thực", "tip": "Lương thực cho tinh bột, nguồn năng lượng chính." },
+    "LT-LANH-DIET-KHUAN": { "label": "Ngăn lạnh diệt sạch vi khuẩn", "tip": "Lạnh chỉ làm vi khuẩn phát triển chậm, thức ăn để lâu vẫn hỏng." },
+    "LT-LANH-THEM-CHAT": { "label": "Để lạnh làm thức ăn nhiều chất hơn", "tip": "Bảo quản giữ chất dinh dưỡng, không tạo thêm chất." },
+    "LT-KHONG-HONG": { "label": "Thực phẩm tươi không bao giờ hỏng", "tip": "Thịt cá để ngoài vài giờ đã có mùi." },
+    "DD-NHAM-NHOM": { "label": "Nhầm nhóm chất dinh dưỡng của thức ăn", "tip": "Tháp dinh dưỡng: mỗi tầng một nhóm chất." },
+    "DD-DAM-NO": { "label": "Chất đạm chỉ để no bụng", "tip": "Chất đạm xây dựng cơ thể: cơ, da, tóc." },
+    "DD-DAM-BEO": { "label": "Chất đạm làm cơ thể béo", "tip": "Ăn thừa bất kì chất nào cũng gây béo; đạm giúp lớn lên." },
+    "DD-KHONG-CAN": { "label": "Cơ thể không cần đủ các nhóm chất", "tip": "Thiếu một nhóm chất cơ thể sẽ yếu, dễ ốm." },
+    "DD-THEM-DUONG": { "label": "Ăn thêm đồ ngọt là đủ chất", "tip": "Đồ ngọt chủ yếu là đường, thiếu đạm và vitamin." },
+    "DD-CHI-TINH-BOT": { "label": "Bữa ăn chỉ cần tinh bột", "tip": "Bữa ăn cần đủ tinh bột, đạm, chất béo, vitamin, khoáng." },
+    "AU-KHONG-LANH-MANH": { "label": "Nhầm thói quen ăn uống lành mạnh", "tip": "Đủ nước, nhiều rau quả, ít ngọt, ít chiên rán, ăn sáng đầy đủ." },
+    "AU-CHI-CHAN": { "label": "Chỉ cần đổi món vì sợ chán", "tip": "Ăn đa dạng là để đủ chất, không chỉ để đỡ chán." },
+    "AU-MOT-MON-DU": { "label": "Một món ăn có đủ mọi chất", "tip": "Không món nào có đủ mọi chất với lượng cần thiết." },
+    "AU-QUA-HAN": { "label": "Thực phẩm quá hạn nhưng chưa mở vẫn dùng được", "tip": "Hạn sử dụng tính cả khi chưa mở; quá hạn không dùng." },
+    "AU-DUN-LA-AN-TOAN": { "label": "Đun sôi là thực phẩm hỏng hóa an toàn", "tip": "Đun sôi không loại hết chất độc trong thực phẩm hỏng." }
+  },
+  "experiment": {
+    "id": "dia-can-bang", "seed": "s2", "lab": "dia-can-bang",
+    "title": "Xếp đĩa ăn cân bằng",
+    "intro": "Chọn món đặt vào đĩa ăn trưa. Bốn cột tinh bột, chất đạm, chất béo, vitamin và khoáng sẽ cao dần theo món em chọn.",
+    "predict": { "prompt": "Bữa ăn chỉ có cơm trắng và khoai chiên thiếu nhóm chất nào nhiều nhất?", "options": ["Tinh bột", "Chất đạm và vitamin", "Chất béo", "Không thiếu gì"], "answer": 1 },
+    "conclude": {
+      "prompt": "Em rút ra điều gì?",
+      "options": ["Đĩa ăn cân bằng cần đủ tinh bột, chất đạm, chất béo, vitamin và khoáng.", "Chỉ cần ăn thật no cơm là đủ.", "Đồ ngọt cung cấp đủ mọi chất."],
+      "good": [0], "keywords": ["cân bằng", "đạm", "vitamin", "rau", "đủ"]
+    }
+  },
+  "seeds": [
+    {
+      "id": "s1", "title": "Lương thực và thực phẩm",
+      "theory": {
+        "picture": "🌾 🌽 🥔 🐟",
+        "intro": "Lương thực, thực phẩm cung cấp chất dinh dưỡng giúp cơ thể sống, lớn lên và hoạt động.",
+        "points": [
+          "Lương thực: gạo, ngô, khoai, sắn, lúa mì, giàu tinh bột, là nguồn năng lượng chính.",
+          "Thực phẩm: thịt, cá, trứng, sữa, rau, quả… cung cấp nhiều chất khác nhau.",
+          "Bảo quản: làm lạnh, phơi khô, đóng hộp, ướp muối giúp thực phẩm lâu hỏng."
+        ],
+        "card": "Lương thực (gạo, ngô, khoai, sắn) giàu tinh bột. Bảo quản lạnh làm vi khuẩn phát triển chậm."
+      },
+      "questions": [
+        { "id": "q1", "level": "biet", "type": "classify",
+          "prompt": "Đâu là lương thực, đâu là thực phẩm khác?",
+          "groups": ["Lương thực", "Thực phẩm khác"],
+          "items": [
+            { "text": "Gạo", "group": 0, "code": "LT-NHAM" },
+            { "text": "Ngô", "group": 0, "code": "LT-NHAM" },
+            { "text": "Khoai lang", "group": 0, "code": "LT-NHAM" },
+            { "text": "Cá", "group": 1, "code": "LT-NHAM" },
+            { "text": "Rau muống", "group": 1, "code": "LT-NHAM" },
+            { "text": "Trứng", "group": 1, "code": "LT-NHAM" }
+          ],
+          "hints": ["Thứ nào là cây trồng giàu tinh bột?", "Thứ nào ăn làm món chính cho no?", "Gạo, ngô, khoai là lương thực."],
+          "explain": "Gạo, ngô, khoai lang là lương thực giàu tinh bột. Cá, rau muống, trứng là các thực phẩm khác." },
+        { "id": "q2", "level": "hieu", "type": "mcq",
+          "prompt": "Lương thực cung cấp chủ yếu chất gì cho cơ thể?",
+          "options": [
+            { "text": "Tinh bột (carbohydrate) cho năng lượng", "correct": true },
+            { "text": "Chất đạm (protein)", "code": "LT-GAO-NHIEU-DAM" },
+            { "text": "Vitamin C", "code": "LT-NHAM-CHAT" },
+            { "text": "Chất béo", "code": "LT-NHAM-CHAT" }
+          ],
+          "hints": ["Cơm, ngô, khoai có vị gì khi nhai lâu?", "Chúng làm ta no và có sức.", "Chất đó là tinh bột."],
+          "explain": "Lương thực giàu tinh bột, chất cung cấp năng lượng chính cho các hoạt động của cơ thể." },
+        { "id": "q3", "level": "vandung", "type": "mcq",
+          "prompt": "Vì sao thịt, cá tươi cần được bảo quản lạnh?",
+          "options": [
+            { "text": "Nhiệt độ thấp làm vi khuẩn phát triển chậm nên thực phẩm lâu hỏng", "correct": true },
+            { "text": "Ngăn lạnh diệt sạch mọi vi khuẩn", "code": "LT-LANH-DIET-KHUAN" },
+            { "text": "Để lạnh làm thịt cá có thêm chất dinh dưỡng", "code": "LT-LANH-THEM-CHAT" },
+            { "text": "Thịt cá tươi không bao giờ hỏng", "code": "LT-KHONG-HONG" }
+          ],
+          "hints": ["Thịt để ngoài nắng vài giờ thì sao?", "Vi khuẩn phát triển nhanh khi ấm.", "Lạnh làm vi khuẩn chậm lại, không diệt hết."],
+          "explain": "Ở nhiệt độ thấp, vi khuẩn phát triển chậm nên thực phẩm giữ được lâu hơn. Ngăn lạnh không diệt hết vi khuẩn, để quá lâu vẫn hỏng." }
+      ]
+    },
+    {
+      "id": "s2", "title": "Nhóm chất dinh dưỡng",
+      "theory": {
+        "picture": "🍚 🥚 🥑 🥦",
+        "intro": "Thức ăn chứa các nhóm chất dinh dưỡng, mỗi nhóm có vai trò riêng.",
+        "points": [
+          "Carbohydrate (tinh bột, đường): gạo, bánh mì, khoai → cung cấp năng lượng.",
+          "Protein (chất đạm): thịt, cá, trứng, đậu → xây dựng, phát triển cơ thể.",
+          "Lipid (chất béo): dầu ăn, mỡ, lạc → dự trữ năng lượng, giúp hấp thụ một số vitamin.",
+          "Vitamin và chất khoáng: rau xanh, quả chín, sữa → tăng sức đề kháng, giúp xương răng chắc."
+        ],
+        "card": "Tinh bột: năng lượng. Đạm: xây dựng cơ thể. Chất béo: dự trữ năng lượng. Vitamin, khoáng: đề kháng, xương răng."
+      },
+      "questions": [
+        { "id": "q1", "level": "biet", "type": "match",
+          "prompt": "Ghép mỗi nhóm chất với thức ăn giàu chất đó.",
+          "pairs": [
+            { "left": "Chất đạm", "right": "Thịt, cá, trứng, đậu phụ" },
+            { "left": "Tinh bột", "right": "Gạo, bánh mì, khoai" },
+            { "left": "Chất béo", "right": "Dầu ăn, mỡ, lạc" },
+            { "left": "Vitamin", "right": "Rau xanh, quả chín" }
+          ],
+          "code": "DD-NHAM-NHOM",
+          "hints": ["Bữa cơm, món nào làm từ gạo?", "Món nào giúp cơ bắp chắc khỏe?", "Rau quả giàu vitamin."],
+          "explain": "Thịt, cá, trứng, đậu giàu đạm; gạo, bánh mì, khoai giàu tinh bột; dầu, mỡ, lạc giàu chất béo; rau xanh, quả chín giàu vitamin." },
+        { "id": "q2", "level": "hieu", "type": "mcq",
+          "prompt": "Chất đạm (protein) có vai trò gì với cơ thể?",
+          "options": [
+            { "text": "Xây dựng và giúp cơ thể phát triển", "correct": true },
+            { "text": "Chỉ để no bụng", "code": "DD-DAM-NO" },
+            { "text": "Làm cơ thể béo lên", "code": "DD-DAM-BEO" },
+            { "text": "Cơ thể không cần chất đạm", "code": "DD-KHONG-CAN" }
+          ],
+          "hints": ["Tuổi các em đang lớn cần chất gì nhiều?", "Cơ, da, tóc được tạo nên từ chất này.", "Đạm giúp xây dựng cơ thể."],
+          "explain": "Chất đạm là nguyên liệu xây dựng cơ, da, tóc, giúp cơ thể lớn lên và phục hồi khi bị thương." },
+        { "id": "q3", "level": "vandung", "type": "mcq",
+          "prompt": "Bữa sáng của Nam chỉ có bánh mì và nước ngọt. Nam nên ăn thêm gì để cân bằng hơn?",
+          "options": [
+            { "text": "Một quả trứng và ít rau, quả", "correct": true },
+            { "text": "Thêm một chiếc bánh ngọt", "code": "DD-THEM-DUONG" },
+            { "text": "Thêm một gói mì tôm", "code": "DD-CHI-TINH-BOT" },
+            { "text": "Không cần thêm gì", "code": "DD-KHONG-CAN" }
+          ],
+          "hints": ["Bánh mì, nước ngọt giàu chất gì?", "Bữa sáng đang thiếu đạm và vitamin.", "Trứng cho đạm, rau quả cho vitamin."],
+          "explain": "Bánh mì và nước ngọt chủ yếu là tinh bột, đường. Thêm trứng (đạm) và rau, quả (vitamin, khoáng) giúp bữa sáng cân bằng." }
+      ]
+    },
+    {
+      "id": "s3", "title": "Ăn uống lành mạnh",
+      "theory": {
+        "picture": "🥗 💧 🍎",
+        "intro": "Ăn uống lành mạnh giúp em khỏe mạnh, học tốt.",
+        "points": [
+          "Ăn đa dạng, đủ các nhóm chất, nhiều rau quả.",
+          "Uống đủ nước; hạn chế nước ngọt, đồ chiên rán, đồ quá mặn.",
+          "Ăn sáng đầy đủ; chọn thực phẩm còn hạn, rõ nguồn gốc, rửa tay trước khi ăn."
+        ],
+        "card": "Ăn đa dạng, nhiều rau quả, đủ nước, ít ngọt, ít chiên rán. Không dùng thực phẩm quá hạn."
+      },
+      "questions": [
+        { "id": "q1", "level": "biet", "type": "classify",
+          "prompt": "Thói quen nào lành mạnh, thói quen nào chưa lành mạnh?",
+          "groups": ["Lành mạnh", "Chưa lành mạnh"],
+          "items": [
+            { "text": "Uống đủ nước mỗi ngày", "group": 0, "code": "AU-KHONG-LANH-MANH" },
+            { "text": "Ăn nhiều rau, quả", "group": 0, "code": "AU-KHONG-LANH-MANH" },
+            { "text": "Uống nhiều nước ngọt có ga", "group": 1, "code": "AU-KHONG-LANH-MANH" },
+            { "text": "Ăn đồ chiên rán hằng ngày", "group": 1, "code": "AU-KHONG-LANH-MANH" },
+            { "text": "Ăn sáng đầy đủ", "group": 0, "code": "AU-KHONG-LANH-MANH" },
+            { "text": "Thường xuyên bỏ bữa sáng", "group": 1, "code": "AU-KHONG-LANH-MANH" }
+          ],
+          "hints": ["Thói quen nào giúp cơ thể khỏe?", "Đồ ngọt, chiên rán ăn nhiều có tốt không?", "Bữa sáng cho năng lượng học buổi sáng."],
+          "explain": "Uống đủ nước, ăn nhiều rau quả, ăn sáng đầy đủ là lành mạnh. Nhiều nước ngọt, đồ chiên rán, bỏ bữa sáng không tốt cho sức khỏe." },
+        { "id": "q2", "level": "hieu", "type": "mcq",
+          "prompt": "Vì sao không nên chỉ ăn mãi một món mình thích?",
+          "options": [
+            { "text": "Vì mỗi món chỉ có một số chất, ăn đa dạng mới đủ chất", "correct": true },
+            { "text": "Vì ăn mãi một món sẽ chán thôi", "code": "AU-CHI-CHAN" },
+            { "text": "Vì món nào cũng đủ mọi chất nên ăn gì cũng được", "code": "AU-MOT-MON-DU" },
+            { "text": "Chỉ ăn một món không ảnh hưởng gì", "code": "DD-KHONG-CAN" }
+          ],
+          "hints": ["Một món ăn có đủ cả 4 nhóm chất không?", "Cơ thể cần nhiều nhóm chất.", "Ăn đa dạng để không thiếu chất."],
+          "explain": "Không món nào có đủ mọi chất với lượng cần thiết. Ăn đa dạng giúp cơ thể nhận đủ tinh bột, đạm, chất béo, vitamin và khoáng." },
+        { "id": "q3", "level": "vandung", "type": "mcq",
+          "prompt": "Em thấy hộp sữa đã quá hạn sử dụng 3 ngày nhưng chưa mở. Em làm gì?",
+          "options": [
+            { "text": "Không uống và báo cho người lớn", "correct": true },
+            { "text": "Uống vì chưa mở nên vẫn an toàn", "code": "AU-QUA-HAN" },
+            { "text": "Đun sôi lên rồi uống", "code": "AU-DUN-LA-AN-TOAN" },
+            { "text": "Uống thử một nửa xem sao", "code": "AU-QUA-HAN" }
+          ],
+          "hints": ["Hạn sử dụng có ý nghĩa gì?", "Chưa mở vẫn có thể đã hỏng bên trong.", "An toàn nhất là không dùng."],
+          "explain": "Thực phẩm quá hạn có thể đã hỏng dù chưa mở, đun sôi cũng không loại hết chất độc. Không dùng và báo người lớn." }
+      ]
+    }
+  ]
+}

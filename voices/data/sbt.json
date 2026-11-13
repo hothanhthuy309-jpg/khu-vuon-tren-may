@@ -1,0 +1,2268 @@
+{
+ "source": "Sách bài tập KHTN 6 (Kết nối tri thức) – Bài 9–17",
+ "lessons": {
+  "bai-09": [
+   {
+    "id": "9.2",
+    "type": "essay",
+    "prompt": "Chỉ ra các chất trong ca dao, tục ngữ: a) Chì khoe chì nặng hơn đồng, sao chì chẳng đúc nên cồng nên chiêng. b) Nước chảy đá mòn. c) Lửa thử vàng, gian nan thử sức.",
+    "answer": "a) chì, đồng. b) nước, đá (đá vôi…). c) vàng."
+   },
+   {
+    "id": "9.3",
+    "type": "essay",
+    "prompt": "Kể tên hai vật thể được làm bằng: a) Sắt. b) Nhôm. c) Gỗ.",
+    "answer": "Ví dụ: a) đinh, dao. b) nồi nhôm, lon nước ngọt. c) bàn, ghế."
+   },
+   {
+    "id": "9.4",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Trong đoạn văn về sắt, đâu là tính chất HÓA HỌC của sắt?",
+    "options": [
+     {
+      "text": "Chất rắn, màu xám"
+     },
+     {
+      "text": "Có ánh kim, dẫn điện tốt"
+     },
+     {
+      "text": "Để ngoài không khí ẩm bị gỉ thành chất màu nâu, xốp",
+      "correct": true
+     },
+     {
+      "text": "Dẫn nhiệt tốt"
+     }
+    ],
+    "explain": "Bị gỉ là có chất mới sinh ra (gỉ sắt) nên là tính chất hóa học; các ý còn lại là tính chất vật lí.",
+    "hints": []
+   },
+   {
+    "id": "9.5",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Đốt cây nến, nến ngắn dần. Đây là biến đổi gì?",
+    "options": [
+     {
+      "text": "Biến đổi vật lí"
+     },
+     {
+      "text": "Biến đổi hóa học",
+      "correct": true
+     },
+     {
+      "text": "Không có biến đổi"
+     },
+     {
+      "text": "Sự nóng chảy thuần túy"
+     }
+    ],
+    "explain": "Nến cháy tạo ra chất mới (khí carbon dioxide, hơi nước) nên là biến đổi hóa học. Còn đun nóng chảy nến trong cốc chỉ là biến đổi vật lí.",
+    "hints": []
+   },
+   {
+    "id": "NH9.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Các chất trong dãy nào sau đây đều là chất?",
+    "options": [
+     {
+      "text": "Muối ăn, nhôm, cái ấm nước"
+     },
+     {
+      "text": "Đồng, muối ăn, đường mía",
+      "correct": true
+     },
+     {
+      "text": "Đường mía, xe máy, nhôm"
+     },
+     {
+      "text": "Cốc thủy tinh, cát, con mèo"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Dãy gồm các vật thể tự nhiên là:",
+    "options": [
+     {
+      "text": "Con mèo, xe máy, con người"
+     },
+     {
+      "text": "Con sư tử, đồi núi, mủ cao su",
+      "correct": true
+     },
+     {
+      "text": "Bánh mì, nước ngọt có gas, cây cối"
+     },
+     {
+      "text": "Cây cam, quả nho, bánh ngọt"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.3",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Các chất trong dãy nào sau đây đều là vật thể?",
+    "options": [
+     {
+      "text": "Cái thìa nhôm, cái ấm sắt, canxi"
+     },
+     {
+      "text": "Con chó, con dao, đồi núi",
+      "correct": true
+     },
+     {
+      "text": "Sắt, nhôm, mâm đồng"
+     },
+     {
+      "text": "Bóng đèn, điện thoại, thủy ngân"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.4",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Đặc điểm cơ bản để phân biệt vật thể tự nhiên và vật thể nhân tạo là:",
+    "options": [
+     {
+      "text": "Vật thể nhân tạo đẹp hơn vật thể tự nhiên"
+     },
+     {
+      "text": "Vật thể tự nhiên làm bằng chất, vật thể nhân tạo làm từ vật liệu"
+     },
+     {
+      "text": "Vật thể tự nhiên làm bằng các chất trong tự nhiên, vật thể nhân tạo làm từ các chất nhân tạo"
+     },
+     {
+      "text": "Vật thể nhân tạo do con người tạo ra",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.6",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Phát biểu nào sau đây là đúng:",
+    "options": [
+     {
+      "text": "Vật không sống có khả năng trao đổi chất với môi trường nhưng không có khả năng sinh sản và phát triển"
+     },
+     {
+      "text": "Vật sống có khả năng trao đổi chất với môi trường, sinh sản và phát triển còn vật không sống không có các khả năng trên.",
+      "correct": true
+     },
+     {
+      "text": "Vật không sống là vật thể nhân tạo"
+     },
+     {
+      "text": "Vật thể tự nhiên là vật sống"
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH9.7",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Chọn đáp án đúng nhất",
+    "options": [
+     {
+      "text": "Vật không sống không có khả năng trao đổi chất với môi trường, sinh sản và phát triển."
+     },
+     {
+      "text": "Vật thể tự nhiên chưa chắc đã là vật sống, ví dụ: núi đá vôi là vật thể tự nhiên nhưng không có khả năng trao đổi chất với môi trường, sinh sản và phát triển."
+     },
+     {
+      "text": "Vật không sống chưa chắc là vật thể nhân tạo ví dụ: mủ cao su không sống, nhưng nó là vật thể tự nhiên, lấy từ cây cao su."
+     },
+     {
+      "text": "Cả 3 đáp án trên đều đúng",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH9.8",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Dãy gồm các vật sống là:",
+    "options": [
+     {
+      "text": "Cây nho, cây cầu, đường mía"
+     },
+     {
+      "text": "Muối ăn, đường thốt nốt, cây cam"
+     },
+     {
+      "text": "Cây cối, đồi núi, con chim"
+     },
+     {
+      "text": "Con chó, cây bàng, con cá",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.9",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Cho các chất sau: hoa đào, hoa mai, con người, cây cỏ, quần áo…Hãy cho biết vật nào là nhân tạo?",
+    "options": [
+     {
+      "text": "Hoa đào"
+     },
+     {
+      "text": "Cây cỏ"
+     },
+     {
+      "text": "Quần áo",
+      "correct": true
+     },
+     {
+      "text": "Tất cả đáp án trên"
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH9.10",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Quá trình nào sau đây thể hiện tính chất hóa học?",
+    "options": [
+     {
+      "text": "Hòa tan muối vào nước"
+     },
+     {
+      "text": "Đun nóng bát đựng muối đến khi có tiếng nổ lách tách"
+     },
+     {
+      "text": "Đun nóng đường ở thể rắn để chuyển sang đường ở thể lỏng"
+     },
+     {
+      "text": "Đun nóng đường đến khi xuất hiện chất màu đen",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.11",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Quá trình nào sau đây thể hiện tính chất vật lí ?",
+    "options": [
+     {
+      "text": "Đun nóng đường đến khi xuất hiện chất màu đen"
+     },
+     {
+      "text": "Cô cạn nước đường thành đường",
+      "correct": true
+     },
+     {
+      "text": "Để lâu ngoài không khí, lớp ngoài của đinh sắt biến thành gỉ sắt màu nâu, giòn và xốp."
+     },
+     {
+      "text": "Hơi nến cháy trong không khí chứa oxygen tạo thành carbon dioxide và hơi nước."
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.12",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Chất nào sau đây ở thể rắn?",
+    "options": [
+     {
+      "text": "Muối ăn"
+     },
+     {
+      "text": "Đường"
+     },
+     {
+      "text": "Đá vôi"
+     },
+     {
+      "text": "Cả ba chất trên",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH9.13",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Tính chất nào sau đây là tính chất hóa học của khí carbon dioxide?",
+    "options": [
+     {
+      "text": "Tan rất ít trong nước"
+     },
+     {
+      "text": "Chất khí, không màu"
+     },
+     {
+      "text": "Không mùi, không vị"
+     },
+     {
+      "text": "Làm đục dung dịch nước vôi trong (dung dịch calcium hydroxide).",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.14",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nếu để một cốc có chứa đá lạnh bên trong, sau một thời gian thấy có nước ở bên ngoài cốc. Đây là hiện tượng gì?",
+    "options": [
+     {
+      "text": "bay hơi"
+     },
+     {
+      "text": "ngưng tụ",
+      "correct": true
+     },
+     {
+      "text": "nóng chảy"
+     },
+     {
+      "text": "thăng hoa"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.16",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Đâu là vật thể nhân tạo?",
+    "options": [
+     {
+      "text": "cây mía đường"
+     },
+     {
+      "text": "cây thốt nốt"
+     },
+     {
+      "text": "củ cải đường"
+     },
+     {
+      "text": "nước hàng",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.17",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Các chất trong dãy nào sau đây đều là vật thể ?",
+    "options": [
+     {
+      "text": "cái ấm nước"
+     },
+     {
+      "text": "xe máy"
+     },
+     {
+      "text": "con mèo"
+     },
+     {
+      "text": "Cả 3 đáp án trên",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH9.18",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Đâu là vật thể nhân tạo?",
+    "options": [
+     {
+      "text": "con trâu"
+     },
+     {
+      "text": "con sông"
+     },
+     {
+      "text": "xe đạp",
+      "correct": true
+     },
+     {
+      "text": "con người"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH9.19",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Các chất trong dãy nào sau đây đều là chất?",
+    "options": [
+     {
+      "text": "Calcium, sắt, thuỷ ngân",
+      "correct": true
+     },
+     {
+      "text": "Đồng, mâm đồng, cái quạt"
+     },
+     {
+      "text": "Sắt, nhôm, trống đồng"
+     },
+     {
+      "text": "Glucose, đường, cát"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   }
+  ],
+  "bai-10": [
+   {
+    "id": "10.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Hiện tượng tự nhiên nào sau đây là do hơi nước ngưng tụ?",
+    "options": [
+     {
+      "text": "Tạo thành mây",
+      "correct": true
+     },
+     {
+      "text": "Gió thổi"
+     },
+     {
+      "text": "Mưa rơi"
+     },
+     {
+      "text": "Lốc xoáy"
+     }
+    ],
+    "explain": "Hơi nước bốc lên cao gặp lạnh ngưng tụ thành những giọt nước nhỏ li ti tạo thành mây.",
+    "hints": []
+   },
+   {
+    "id": "10.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Sự chuyển thể nào sau đây xảy ra tại nhiệt độ xác định?",
+    "options": [
+     {
+      "text": "Ngưng tụ"
+     },
+     {
+      "text": "Hóa hơi"
+     },
+     {
+      "text": "Sôi",
+      "correct": true
+     },
+     {
+      "text": "Bay hơi"
+     }
+    ],
+    "explain": "Mỗi chất sôi ở một nhiệt độ xác định (nước sôi ở 100 °C); bay hơi xảy ra ở mọi nhiệt độ.",
+    "hints": []
+   },
+   {
+    "id": "10.3",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Ngửi thấy mùi thơm hoa hồng từ xa thể hiện tính chất nào của thể khí?",
+    "options": [
+     {
+      "text": "Dễ dàng nén được"
+     },
+     {
+      "text": "Không có hình dạng xác định"
+     },
+     {
+      "text": "Có thể lan tỏa trong không gian theo mọi hướng",
+      "correct": true
+     },
+     {
+      "text": "Không chảy được"
+     }
+    ],
+    "explain": "Chất khí lan tỏa theo mọi hướng nên mùi thơm lan tới mũi ta.",
+    "hints": []
+   },
+   {
+    "id": "10.9",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Nhiệt độ nóng chảy của thủy ngân là −39 °C. Ở nhiệt độ phòng, thủy ngân ở thể gì?",
+    "options": [
+     {
+      "text": "Rắn"
+     },
+     {
+      "text": "Lỏng",
+      "correct": true
+     },
+     {
+      "text": "Khí"
+     },
+     {
+      "text": "Vừa rắn vừa khí"
+     }
+    ],
+    "explain": "Nhiệt độ phòng (khoảng 25 °C) cao hơn −39 °C nên thủy ngân đã nóng chảy, ở thể lỏng. Muốn đông đặc phải làm lạnh tới −39 °C.",
+    "hints": []
+   },
+   {
+    "id": "10.11",
+    "type": "mcq",
+    "level": "vandung",
+    "prompt": "Oxygen, nitrogen, carbon dioxide ở thể khí tại nhiệt độ phòng. Vậy nhiệt độ sôi của chúng so với nhiệt độ phòng là",
+    "options": [
+     {
+      "text": "Cao hơn"
+     },
+     {
+      "text": "Thấp hơn",
+      "correct": true
+     },
+     {
+      "text": "Bằng nhau"
+     },
+     {
+      "text": "Không so sánh được"
+     }
+    ],
+    "explain": "Chất đã ở thể khí tại nhiệt độ phòng thì nhiệt độ sôi thấp hơn nhiệt độ phòng; nước, dầu, xăng ở thể lỏng thì nhiệt độ sôi cao hơn.",
+    "hints": []
+   },
+   {
+    "id": "10.12",
+    "type": "mcq",
+    "level": "vandung",
+    "prompt": "Nhỏ một giọt cồn (sôi khoảng 78 °C), nước (100 °C), dầu ăn (khoảng 300 °C) lên mặt kính. Chất nào bay hơi nhanh nhất?",
+    "options": [
+     {
+      "text": "Dầu ăn"
+     },
+     {
+      "text": "Nước"
+     },
+     {
+      "text": "Cồn y tế",
+      "correct": true
+     },
+     {
+      "text": "Như nhau"
+     }
+    ],
+    "explain": "Chất có nhiệt độ sôi càng thấp thì bay hơi càng nhanh: cồn nhanh nhất, dầu ăn chậm nhất.",
+    "hints": []
+   },
+   {
+    "id": "10.10",
+    "type": "essay",
+    "prompt": "So sánh sự sôi và sự bay hơi. Tại sao không nói “nhiệt độ bay hơi” của một chất?",
+    "answer": "Giống: đều là chuyển từ thể lỏng sang thể hơi. Khác: bay hơi xảy ra ở bề mặt chất lỏng, ở mọi nhiệt độ; sôi xảy ra cả trong lòng chất lỏng, ở nhiệt độ xác định. Vì bay hơi xảy ra ở mọi nhiệt độ nên không có “nhiệt độ bay hơi”."
+   },
+   {
+    "id": "10.13",
+    "type": "essay",
+    "prompt": "Đun nước muối trong xoong đậy vung, khi sôi mở vung thấy nhiều giọt nước trên nắp. a) Vì sao? b) Giọt nước có vị gì, chất nào đã bay hơi?",
+    "answer": "a) Hơi nước gặp nắp vung lạnh hơn nên ngưng tụ thành giọt. b) Giọt nước không mặn: chỉ có nước bay hơi, muối vẫn ở lại trong xoong."
+   },
+   {
+    "id": "NH10.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nhiệt độ nóng chảy của chất rắn kết tinh không có đặc điểm",
+    "options": [
+     {
+      "text": "chất rắn kết tinh có nhiệt độ nóng chảy xác định."
+     },
+     {
+      "text": "thể tích của tất cả các chất rắn đều tăng khi nóng chảy.",
+      "correct": true
+     },
+     {
+      "text": "chất vô định hình không có nhiệt độ nóng chảy xác định."
+     },
+     {
+      "text": "với mỗi cấu trúc tinh thẻ, nhiệt độ nóng chảy phụ thuộc vào áp suất bên ngoài"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Điều nào sau đây không đúng?",
+    "options": [
+     {
+      "text": "Sự sôi là quá trình chuyển từ thể lỏng sang thể khí xảy ra ở cả bên trong và trên bề mặt chất lỏng."
+     },
+     {
+      "text": "Sự nóng chảy là quá trình chuyển từ thể rắn sang thể lỏng."
+     },
+     {
+      "text": "Sự ngưng tụ là quá trinh chuyển từ thể lỏng sang thể rắn.",
+      "correct": true
+     },
+     {
+      "text": "Sự bay hơi là quá trình chuyển từ thể lỏng sang thể khí (hơi) ở bề mặt chất lỏng."
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH10.3",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Câu phát biểu nào sau đây là sai?",
+    "options": [
+     {
+      "text": "Trong khi đang nóng chảy hoặc đông đặc, thì nhiệt độ của nhiều chất không thay đổi"
+     },
+     {
+      "text": "Một chất nóng chảy ở nhiệt độ nào thì cũng đông đặc ở nhiệt độ ấy"
+     },
+     {
+      "text": "Đông đặc và nóng chảy là hai quá trình ngược nhau"
+     },
+     {
+      "text": "Cả ba câu trên đều sai",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH10.4",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Chọn câu đúng, khi nói về sự sôi:",
+    "options": [
+     {
+      "text": "Sự sôi là sự bay hơi trên bề mặt thoáng của chất lỏng."
+     },
+     {
+      "text": "Sự sôi là sự bay hơi ở trong lòng chất lỏng."
+     },
+     {
+      "text": "Sự sôi là sự bay hơi cả ở trong lòng chất lỏng lẫn cả trên bề mặt thoáng của nó.",
+      "correct": true
+     },
+     {
+      "text": "Cả 3 câu A, B, C đều sai."
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH10.5",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Một chất hơi đạt trạng thái “hơi bão hòa” thì",
+    "options": [
+     {
+      "text": "áp suất hơi không phụ thuộc vào nhiệt độ hơi."
+     },
+     {
+      "text": "khi thể tích giảm, áp suất hơi tăng."
+     },
+     {
+      "text": "ở cùng một nhiệt độ, áp suất hơi là như nhau với mọi chất."
+     },
+     {
+      "text": "tốc độ ngưng tụ bằng tốc độ bay hơi.",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.6",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Sự chuyển thể nào sau đây xảy ra tại nhiệt độ xác định?",
+    "options": [
+     {
+      "text": "Bay hơi"
+     },
+     {
+      "text": "Ngưng tụ"
+     },
+     {
+      "text": "Sôi",
+      "correct": true
+     },
+     {
+      "text": "Hóa hơi"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.7",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Trong thời gian sôi của một chất lỏng, ở áp suất chuẩn",
+    "options": [
+     {
+      "text": "nhiệt độ của chất lỏng tăng."
+     },
+     {
+      "text": "nhiệt độ của chất lỏng không đổi.",
+      "correct": true
+     },
+     {
+      "text": "chỉ có quá trình chuyển từ thể lỏng sang thể khí ở trên bề mặt chất lỏng."
+     },
+     {
+      "text": "chỉ có quá trình chuyển từ thể lỏng sang thể khí ở bên trong chất lỏng."
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH10.8",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Tốc độ bay hơi của chất lỏng không phụ thuộc vào yếu tố nào sau đây",
+    "options": [
+     {
+      "text": "Thể tích của chất lỏng.",
+      "correct": true
+     },
+     {
+      "text": "Nhiệt độ."
+     },
+     {
+      "text": "Gió."
+     },
+     {
+      "text": "Diện tích mặt thoáng của chất lỏng"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.9",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Chất rắn kết tinh có đặc điểm, tính chất nào sau đây?",
+    "options": [
+     {
+      "text": "Có nhiệt độ nóng chảy không xác định."
+     },
+     {
+      "text": "Có cấu trúc tinh thể.",
+      "correct": true
+     },
+     {
+      "text": "Không có nhiệt độ nóng chảy xác định."
+     },
+     {
+      "text": "Không có dạng hình học xác định."
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.10",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Ở áp suất tiêu chuẩn, chất rắn kết tinh nào sau đây có nhiệt độ nóng chảy là 273 K.",
+    "options": [
+     {
+      "text": "Thiếc."
+     },
+     {
+      "text": "Nước đá.",
+      "correct": true
+     },
+     {
+      "text": "Chì."
+     },
+     {
+      "text": "Nhôm."
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.11",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Hiện tượng tự nhiên nào sau đây là do hơi nước ngưng tụ?",
+    "options": [
+     {
+      "text": "Tạo thành mây",
+      "correct": true
+     },
+     {
+      "text": "Lốc xoáy"
+     },
+     {
+      "text": "Mưa rơi"
+     },
+     {
+      "text": "Gió thổi"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.12",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Một số chất khí có mùi thơm tỏa ra từ bông hoa hồng làm ta có thể ngửi thấy mùi hoa thơm. Điều này thể hiện tính chất nào của thể khí?",
+    "options": [
+     {
+      "text": "Không chảy được"
+     },
+     {
+      "text": "Không có hình dạng xác định"
+     },
+     {
+      "text": "Có thể lan tỏa trong không gian theo mọi hướng",
+      "correct": true
+     },
+     {
+      "text": "Dễ dàng nén được"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.13",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Phát biểu nào sau đây là không đúng? Tốc độ bay hơi của một lượng chất lỏng",
+    "options": [
+     {
+      "text": "không phụ thuộc vào bản chất của chất lỏng.",
+      "correct": true
+     },
+     {
+      "text": "phụ thuộc vào áp suất của khí (hay hơi) trên bề mặt chất lỏng."
+     },
+     {
+      "text": "càng lớn nếu diện tích bề mặt chất lỏng càng lớn."
+     },
+     {
+      "text": "càng lớn nếu nhiệt độ chất lỏng càng cao."
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH10.14",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Chất làm bình chứa phải ở thể rắn vì:",
+    "options": [
+     {
+      "text": "Vật rắn có hình dạng theo vật chứa"
+     },
+     {
+      "text": "Vật rắn thường đẹp hơn"
+     },
+     {
+      "text": "Vật rắn có hình dạng cố định và rất khó nén",
+      "correct": true
+     },
+     {
+      "text": "Vì vật rắn dễ nén"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.15",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nước đựng trọng cốc bay hơi càng nhanh khi:",
+    "options": [
+     {
+      "text": "Nước trong cốc càng lạnh."
+     },
+     {
+      "text": "Nước trong cốc càng ít."
+     },
+     {
+      "text": "Nước trong cốc càng nóng.",
+      "correct": true
+     },
+     {
+      "text": "Nước trong cốc càng nhiều."
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.16",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Khi làm muối từ nước biển, người dân làm muối (diêm dân) dẫn nước biển vào các ruộng muối. Nước biển bay hơi, người ta thu được muối. Theo em, thời tiết như thế nào thì thuận lợi cho nghề làm muối?",
+    "options": [
+     {
+      "text": "Trời nắng nóng",
+      "correct": true
+     },
+     {
+      "text": "Trời nhiều gió"
+     },
+     {
+      "text": "Trời hanh khô"
+     },
+     {
+      "text": "Trời lạnh"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.17",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Trong các đặc điểm sau đây, đặc điểm nào không phải là của sự bay hơi?",
+    "options": [
+     {
+      "text": "Xảy ra trên mặt thoáng của chất lỏng."
+     },
+     {
+      "text": "Xảy ra ở bất kì nhiệt độ nào của chất lỏng."
+     },
+     {
+      "text": "Không nhìn thấy được."
+     },
+     {
+      "text": "Xảy ra ở một nhiệt độ xác định của chất lỏng.",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH10.18",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Hiện tượng nào sau đây không phải là sự ngưng tụ?",
+    "options": [
+     {
+      "text": "Sự tạo thành mây."
+     },
+     {
+      "text": "Sương đọng trên lá cây."
+     },
+     {
+      "text": "Sự tạo thành hơi nước.",
+      "correct": true
+     },
+     {
+      "text": "Sự tạo thành sương mù."
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH10.19",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Sự nóng chảy, sự đông đặc và sự sôi có đặc điểm nào giống nhau?",
+    "options": [
+     {
+      "text": "Nhiệt độ không thay đổi và xảy ra ở một nhiệt độ xác định.",
+      "correct": true
+     },
+     {
+      "text": "Nhiệt độ tăng dần và xảy ra ở một nhiệt độ xác định."
+     },
+     {
+      "text": "Nhiệt độ giảm dần và xảy ra ở một nhiệt độ xác định."
+     },
+     {
+      "text": "Nhiệt độ tăng dần và xảy ra ở một nhiệt độ không xác định."
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH10.20",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Tính chất nào sau đây không phải tính chất của sự sôi",
+    "options": [
+     {
+      "text": "Khi sôi có sự chuyển thể từ lỏng sang hơi"
+     },
+     {
+      "text": "Khi đang sôi thì nhiệt độ chất lỏng không thay đổi"
+     },
+     {
+      "text": "Sự sôi xảy ra ở cùng một nhiệt độ xác định đối với mọi chất lỏng",
+      "correct": true
+     },
+     {
+      "text": "Khi sôi có sự bay hơi ở trong lòng chất lỏng"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   }
+  ],
+  "bai-11": [
+   {
+    "id": "11.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Quá trình nào sau đây cần oxygen?",
+    "options": [
+     {
+      "text": "Hô hấp",
+      "correct": true
+     },
+     {
+      "text": "Quang hợp"
+     },
+     {
+      "text": "Hòa tan"
+     },
+     {
+      "text": "Nóng chảy"
+     }
+    ],
+    "explain": "Hô hấp cần oxygen; quang hợp thì tạo ra oxygen.",
+    "hints": []
+   },
+   {
+    "id": "11.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Phát biểu nào sau đây đúng?",
+    "options": [
+     {
+      "text": "Khí oxygen không tan trong nước"
+     },
+     {
+      "text": "Khí oxygen sinh ra trong quá trình hô hấp của cây xanh"
+     },
+     {
+      "text": "Ở điều kiện thường, oxygen là chất khí không màu, không mùi, không vị",
+      "correct": true
+     },
+     {
+      "text": "Cần cung cấp oxygen để dập tắt đám cháy"
+     }
+    ],
+    "explain": "Oxygen tan ít trong nước, sinh ra khi quang hợp, duy trì sự cháy.",
+    "hints": []
+   },
+   {
+    "id": "11.3",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Khí nào tham gia vào quá trình quang hợp của cây xanh?",
+    "options": [
+     {
+      "text": "Oxygen"
+     },
+     {
+      "text": "Nitrogen"
+     },
+     {
+      "text": "Khí hiếm"
+     },
+     {
+      "text": "Carbon dioxide",
+      "correct": true
+     }
+    ],
+    "explain": "Cây xanh hấp thụ carbon dioxide và nước, nhờ ánh sáng tạo ra chất hữu cơ và oxygen.",
+    "hints": []
+   },
+   {
+    "id": "11.4",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nitrogen trong không khí có vai trò nào?",
+    "options": [
+     {
+      "text": "Cung cấp đạm tự nhiên cho cây trồng",
+      "correct": true
+     },
+     {
+      "text": "Hình thành sấm sét"
+     },
+     {
+      "text": "Tham gia quá trình quang hợp"
+     },
+     {
+      "text": "Tham gia quá trình tạo mây"
+     }
+    ],
+    "explain": "Nitrogen là nguồn cung cấp đạm tự nhiên cho cây.",
+    "hints": []
+   },
+   {
+    "id": "11.6",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Cho que đóm còn tàn đỏ vào lọ chứa khí oxygen, hiện tượng là",
+    "options": [
+     {
+      "text": "Que đóm tắt ngay"
+     },
+     {
+      "text": "Que đóm bùng cháy",
+      "correct": true
+     },
+     {
+      "text": "Không có gì xảy ra"
+     },
+     {
+      "text": "Lọ bị nổ"
+     }
+    ],
+    "explain": "Oxygen duy trì sự cháy nên que đóm còn tàn đỏ bùng cháy trở lại.",
+    "hints": []
+   },
+   {
+    "id": "11.9",
+    "type": "mcq",
+    "level": "vandung",
+    "prompt": "Đốt 1 L xăng cần 1 950 L oxygen. Ô tô dùng 7 L xăng; oxygen chiếm 1/5 không khí. Thể tích không khí cần là",
+    "options": [
+     {
+      "text": "13 650 L"
+     },
+     {
+      "text": "68 250 L",
+      "correct": true
+     },
+     {
+      "text": "8 736 L"
+     },
+     {
+      "text": "2 730 L"
+     }
+    ],
+    "explain": "Oxygen: 7 × 1 950 = 13 650 L. Không khí: 13 650 × 5 = 68 250 L. (CO₂ sinh ra: 7 × 1 248 = 8 736 L.)",
+    "hints": []
+   },
+   {
+    "id": "11.10",
+    "type": "mcq",
+    "level": "vandung",
+    "prompt": "100 mL không khí trong 2 xi-lanh cho đi qua vụn đồng nung nóng, đồng phản ứng hết với oxygen. Thể tích khí còn lại khoảng",
+    "options": [
+     {
+      "text": "100 mL"
+     },
+     {
+      "text": "80 mL",
+      "correct": true
+     },
+     {
+      "text": "20 mL"
+     },
+     {
+      "text": "50 mL"
+     }
+    ],
+    "explain": "Oxygen chiếm khoảng 1/5 = 20 mL đã phản ứng hết, còn lại khoảng 80 mL.",
+    "hints": []
+   },
+   {
+    "id": "11.8",
+    "type": "essay",
+    "prompt": "Khi nuôi cá cảnh, tại sao phải thường xuyên sục không khí vào bể cá?",
+    "answer": "Oxygen tan ít trong nước. Sục không khí để bổ sung oxygen hòa tan cho cá hô hấp."
+   },
+   {
+    "id": "NH11.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Quá trình nào sau đây cần oxygen?",
+    "options": [
+     {
+      "text": "Quang hợp"
+     },
+     {
+      "text": "Hô hấp",
+      "correct": true
+     },
+     {
+      "text": "Hòa tan"
+     },
+     {
+      "text": "Nóng chảy"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nhiệt độ lạnh nhất trên Trái Đất từng ghi lại được là -89 °C. Khi đó oxygen tồn tại ở thể khí, lỏng hay rắn?",
+    "options": [
+     {
+      "text": "Khí",
+      "correct": true
+     },
+     {
+      "text": "Lỏng"
+     },
+     {
+      "text": "Rắn"
+     },
+     {
+      "text": "Cả ba trạng thái"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.3",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Khí nào có phần trăm thể tích lớn nhất trong không khí?",
+    "options": [
+     {
+      "text": "Carbon dioxide"
+     },
+     {
+      "text": "Helium"
+     },
+     {
+      "text": "Oxygen"
+     },
+     {
+      "text": "Nitrogen",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.4",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Thành phần không khí gồm những gì?",
+    "options": [
+     {
+      "text": "21% Nitrogen, 78% Oxygen; 1% khí khác"
+     },
+     {
+      "text": "100% Nitrogen"
+     },
+     {
+      "text": "78% Nitrogen, 21% Oxygen; 1% khí khác",
+      "correct": true
+     },
+     {
+      "text": "100% Oxygen"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.5",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Phát biểu nào sau đây đúng?",
+    "options": [
+     {
+      "text": "Ở điều kiện thường, oxygen là chất khí không màu, không mùi, không vị.",
+      "correct": true
+     },
+     {
+      "text": "Khí oxygen sinh ra trong quá trình hô hấp của cây xanh"
+     },
+     {
+      "text": "Khí oxygen không tan trong nước"
+     },
+     {
+      "text": "Cần cung cấp oxygen để dập tắt đám cháy"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.6",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Quá trình nào dưới đây không làm giảm lượng oxygen trong không khí",
+    "options": [
+     {
+      "text": "Sự quang hợp của cây xanh",
+      "correct": true
+     },
+     {
+      "text": "Sự hô hấp của động vật"
+     },
+     {
+      "text": "Sự gỉ của các vật dụng bằng sắt"
+     },
+     {
+      "text": "Sự cháy của than, củi, bếp ga"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.7",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Để bảo vệ không khí trong lành chúng ta nên làm gì?",
+    "options": [
+     {
+      "text": "Xây thêm nhiều khu công nghiệp"
+     },
+     {
+      "text": "Đổ chất thải chưa qua xử lí ra môi trường"
+     },
+     {
+      "text": "Trồng cây xanh",
+      "correct": true
+     },
+     {
+      "text": "Chặt cây xây cầu cao tốc"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.8",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nitrogen trong không khí có vai trò nào sau đây?",
+    "options": [
+     {
+      "text": "Cung cấp đạm tự nhiên cho cây trồng",
+      "correct": true
+     },
+     {
+      "text": "Tham gia quá trình tạo mây"
+     },
+     {
+      "text": "Tham gia quá trình quang hợp của cây"
+     },
+     {
+      "text": "Hình thành sấm sét"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.9",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Giải pháp để giữ bầu không khí trong lành?",
+    "options": [
+     {
+      "text": "Hướng dẫn người dân sử dụng năng lượng hợp lí, tiết kiệm"
+     },
+     {
+      "text": "Đề ra quy định nghiêm ngặt về xử lí khí thải, chất độc hại"
+     },
+     {
+      "text": "Bảo vệ và trồng cây xanh"
+     },
+     {
+      "text": "Cả 3 đáp án trên",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH11.10",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nguyên nhân gây ô nhiễm không khí là gì?",
+    "options": [
+     {
+      "text": "Cháy rừng"
+     },
+     {
+      "text": "Rác thải, khí thải từ xe cộ, nhà máy"
+     },
+     {
+      "text": "Hoạt động sản xuất của con người"
+     },
+     {
+      "text": "Cả 3 đáp án trên",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH11.11",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Tính chất nào sau đây mà oxygen không có:",
+    "options": [
+     {
+      "text": "Tan nhiều trong nước.",
+      "correct": true
+     },
+     {
+      "text": "Nặng hơn không khí."
+     },
+     {
+      "text": "Oxygen là chất khí."
+     },
+     {
+      "text": "Không màu, không mùi, không vị"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.12",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Ở nhiệt độ phòng, oxygen tồn tại ở thể nào?",
+    "options": [
+     {
+      "text": "Rắn"
+     },
+     {
+      "text": "Lỏng"
+     },
+     {
+      "text": "Khí",
+      "correct": true
+     },
+     {
+      "text": "Cả ba trạng thái"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.13",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Phương pháp nào để dập tắt đám cháy nhỏ do xăng dầu?",
+    "options": [
+     {
+      "text": "Dùng cồn."
+     },
+     {
+      "text": "Quạt."
+     },
+     {
+      "text": "Dùng nước."
+     },
+     {
+      "text": "Phủ chăn bông ướt hoặc vải dày ướt.",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.14",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Đâu là tác hại của ô nhiễm không khí đối với đời sống?",
+    "options": [
+     {
+      "text": "Làm ảnh hưởng nghiêm trọng đến môi trường và chất lượng đời sống con người"
+     },
+     {
+      "text": "Làm trái đất nóng lên, khiến cho băng cực tan"
+     },
+     {
+      "text": "Bụi, khói, khí độc gây nhiều bệnh nguy hiểm"
+     },
+     {
+      "text": "Cả 3 đáp án trên",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH11.15",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Khí oxygen chiếm bao nhiêu phần trăm thể tích không khí?",
+    "options": [
+     {
+      "text": "21%",
+      "correct": true
+     },
+     {
+      "text": "75%"
+     },
+     {
+      "text": "25%"
+     },
+     {
+      "text": "78%"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.16",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Để bảo vệ không khí trong lành chúng ta nên làm gì?",
+    "options": [
+     {
+      "text": "Chặt cây xây cầu cao tốc."
+     },
+     {
+      "text": "Đổ chất thải chưa qua xử lí ra môi trường."
+     },
+     {
+      "text": "Trồng cây xanh.",
+      "correct": true
+     },
+     {
+      "text": "Xây thêm nhiều khu công nghiệpệp."
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.17",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Khí nào sau đây tham gia vào quá trình quang hợp của cây xanh?",
+    "options": [
+     {
+      "text": "Oxygen"
+     },
+     {
+      "text": "Carbon dioxide",
+      "correct": true
+     },
+     {
+      "text": "Khí hiếm"
+     },
+     {
+      "text": "Nitrogen"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.18",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Tác hại của ô nhiễm môi trường là:",
+    "options": [
+     {
+      "text": "Có một số hiện tượng thời tiết cực đoan: Hiệu ứng nhà kính, biến đổi khí hậu, mưa acid, ..."
+     },
+     {
+      "text": "Thực vật không phát triển được, phá hủy quá trình trồng trọt và chăn nuôi"
+     },
+     {
+      "text": "Hạn chế tầm nhìn khi tham gia giao thông"
+     },
+     {
+      "text": "Tất cả các ý trên",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   },
+   {
+    "id": "NH11.19",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Khi đốt cháy 1 lít xăng, cần 1950 lít oxygen. Một ô tô khi chạy một quãng đường dài 100 km tiêu thụ hết 7 lít xăng. Coi oxygen chiếm 1/5 thể tích không khí. Thể tích không khí cần cung cấp để ô tô chạy được quãng đường dài 100 km là:",
+    "options": [
+     {
+      "text": "68250 lít",
+      "correct": true
+     },
+     {
+      "text": "54600 lít"
+     },
+     {
+      "text": "13650 lít"
+     },
+     {
+      "text": "9750 lít"
+     }
+    ],
+    "explain": "",
+    "hints": []
+   },
+   {
+    "id": "NH11.20",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Sự ô nhiễm không khí có nguyên nhân do con người là :",
+    "options": [
+     {
+      "text": "Rác thải"
+     },
+     {
+      "text": "Cháy rừng"
+     },
+     {
+      "text": "Hoạt động sản xuất từ các nhà máy"
+     },
+     {
+      "text": "Tất cả các đáp án trên.",
+      "correct": true
+     }
+    ],
+    "explain": "",
+    "hints": [],
+    "fixed": true
+   }
+  ],
+  "bai-12": [
+   {
+    "id": "12.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Trong các vật liệu sau, vật liệu nào dẫn điện tốt?",
+    "options": [
+     {
+      "text": "Thủy tinh"
+     },
+     {
+      "text": "Gốm"
+     },
+     {
+      "text": "Kim loại",
+      "correct": true
+     },
+     {
+      "text": "Cao su"
+     }
+    ],
+    "explain": "Kim loại dẫn điện tốt; thủy tinh, gốm, cao su cách điện.",
+    "hints": []
+   },
+   {
+    "id": "12.2",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Cho các vật liệu: nhựa, thủy tinh, gốm, đá, thép. Số vật liệu nhân tạo là",
+    "options": [
+     {
+      "text": "2"
+     },
+     {
+      "text": "3"
+     },
+     {
+      "text": "4",
+      "correct": true
+     },
+     {
+      "text": "5"
+     }
+    ],
+    "explain": "Nhựa, thủy tinh, gốm, thép là nhân tạo; đá là vật liệu tự nhiên.",
+    "hints": []
+   },
+   {
+    "id": "12.7",
+    "type": "essay",
+    "prompt": "Phích cắm điện: chốt cắm, tay cầm, dây điện làm bằng vật liệu gì? Dựa vào tính chất nào?",
+    "answer": "Chốt cắm và lõi dây bằng kim loại (đồng) vì dẫn điện tốt; tay cầm và vỏ dây bằng nhựa/cao su vì cách điện, an toàn."
+   },
+   {
+    "id": "12.8",
+    "type": "essay",
+    "prompt": "Nên dùng vật liệu nào (nhựa, gỗ, thủy tinh, kim loại) để làm nồi, xoong? Vì sao?",
+    "answer": "Kim loại: dẫn nhiệt tốt, bền, chịu nhiệt cao. Nhựa, gỗ dễ cháy/biến dạng; thủy tinh thường dễ vỡ khi đun."
+   }
+  ],
+  "bai-13": [
+   {
+    "id": "13.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Khi khai thác quặng sắt, ý nào sau đây KHÔNG đúng?",
+    "options": [
+     {
+      "text": "Khai thác tiết kiệm vì nguồn quặng có hạn"
+     },
+     {
+      "text": "Tránh làm ô nhiễm môi trường"
+     },
+     {
+      "text": "Nên sử dụng các phương pháp khai thác thủ công",
+      "correct": true
+     },
+     {
+      "text": "Chế biến quặng thành sản phẩm có giá trị"
+     }
+    ],
+    "explain": "Khai thác thủ công lãng phí, kém an toàn và gây ô nhiễm; cần khai thác hợp lí, hiện đại.",
+    "hints": []
+   },
+   {
+    "id": "13.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nguyên liệu nào được sử dụng trong lò nung vôi?",
+    "options": [
+     {
+      "text": "Đá vôi",
+      "correct": true
+     },
+     {
+      "text": "Cát"
+     },
+     {
+      "text": "Gạch"
+     },
+     {
+      "text": "Đất sét"
+     }
+    ],
+    "explain": "Nung đá vôi thu được vôi sống.",
+    "hints": []
+   },
+   {
+    "id": "13.3",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Sau khi lấy quặng ra khỏi mỏ, cần thực hiện quá trình nào để thu được kim loại?",
+    "options": [
+     {
+      "text": "Bay hơi"
+     },
+     {
+      "text": "Lắng gạn"
+     },
+     {
+      "text": "Nấu chảy"
+     },
+     {
+      "text": "Chế biến",
+      "correct": true
+     }
+    ],
+    "explain": "Quặng phải qua chế biến (làm giàu, luyện) mới thu được kim loại.",
+    "hints": []
+   },
+   {
+    "id": "13.7",
+    "type": "essay",
+    "prompt": "Nguyên liệu chính để chế biến thành: a) Đường ăn. b) Gạch. c) Xăng.",
+    "answer": "a) Cây mía (củ cải đường). b) Đất sét. c) Dầu mỏ."
+   }
+  ],
+  "bai-14": [
+   {
+    "id": "14.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Nhiên liệu hóa thạch",
+    "options": [
+     {
+      "text": "là nguồn nhiên liệu tái tạo"
+     },
+     {
+      "text": "là đá chứa ít nhất 50% xác động, thực vật"
+     },
+     {
+      "text": "chỉ bao gồm dầu mỏ, than đá"
+     },
+     {
+      "text": "hình thành từ xác sinh vật bị chôn vùi, biến đổi hàng triệu năm",
+      "correct": true
+     }
+    ],
+    "explain": "Than đá, dầu mỏ, khí tự nhiên hình thành từ xác sinh vật qua hàng triệu năm, không tái tạo được.",
+    "hints": []
+   },
+   {
+    "id": "14.3",
+    "type": "essay",
+    "prompt": "Nhiên liệu có thể tồn tại ở những thể nào? Lấy ví dụ.",
+    "answer": "Rắn: than, củi. Lỏng: xăng, dầu, cồn. Khí: khí gas, biogas."
+   },
+   {
+    "id": "14.5",
+    "type": "essay",
+    "prompt": "Nêu cách sử dụng khí gas/xăng an toàn, tiết kiệm trong gia đình.",
+    "answer": "Khóa van gas khi không dùng, kiểm tra rò rỉ, để bình gas nơi thoáng; điều chỉnh lửa vừa phải; đi xe đúng tốc độ, tắt máy khi dừng lâu, bảo dưỡng xe."
+   }
+  ],
+  "bai-15": [
+   {
+    "id": "15.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Lứa tuổi 11–15 phát triển nhanh chiều cao. Chất quan trọng nhất cho sự phát triển của xương là",
+    "options": [
+     {
+      "text": "Carbohydrate"
+     },
+     {
+      "text": "Protein"
+     },
+     {
+      "text": "Calcium",
+      "correct": true
+     },
+     {
+      "text": "Chất béo"
+     }
+    ],
+    "explain": "Calcium (canxi) giúp xương chắc khỏe; có nhiều trong sữa, tôm, cua.",
+    "hints": []
+   },
+   {
+    "id": "15.7",
+    "type": "match",
+    "level": "hieu",
+    "prompt": "Nối nhóm chất với vai trò phù hợp.",
+    "pairs": [
+     {
+      "left": "Carbohydrate",
+      "right": "Như nhiên liệu của cơ thể, chuyển thành glucose để cung cấp năng lượng"
+     },
+     {
+      "left": "Chất béo",
+      "right": "Dự trữ dưới da giúp gấu chống rét"
+     },
+     {
+      "left": "Protein",
+      "right": "Có trong tóc, cơ, máu, da"
+     },
+     {
+      "left": "Vitamin",
+      "right": "Cần lượng nhỏ nhưng tác dụng lớn tới trao đổi chất"
+     },
+     {
+      "left": "Chất xơ",
+      "right": "Không cung cấp dinh dưỡng nhưng cần cho tiêu hóa"
+     }
+    ],
+    "explain": "Mỗi nhóm chất có vai trò riêng; bữa ăn cần đủ các nhóm.",
+    "hints": []
+   },
+   {
+    "id": "15.9",
+    "type": "fill",
+    "level": "hieu",
+    "prompt": "Điền từ thích hợp vào chỗ trống.",
+    "text": "Động vật phải lấy {0} thông qua ăn thức ăn. Hầu hết {1} của chúng là thực vật hoặc động vật khác. Sau khi ăn, thức ăn được tiêu hóa, xảy ra các quá trình {2} để biến thức ăn thành các chất cơ thể cần.",
+    "blanks": [
+     {
+      "answer": "chất dinh dưỡng",
+      "wrong": {
+       "năng lượng": "",
+       "chuyển hóa": ""
+      }
+     },
+     {
+      "answer": "thức ăn",
+      "wrong": {
+       "chất dinh dưỡng": "",
+       "năng lượng": ""
+      }
+     },
+     {
+      "answer": "chuyển hóa",
+      "wrong": {
+       "năng lượng": "",
+       "thức ăn": ""
+      }
+     }
+    ],
+    "explain": "Đáp án: chất dinh dưỡng – thức ăn – chuyển hóa.",
+    "hints": [],
+    "choices": [
+     "chất dinh dưỡng",
+     "thức ăn",
+     "chuyển hóa",
+     "năng lượng"
+    ]
+   },
+   {
+    "id": "15.3",
+    "type": "essay",
+    "prompt": "Nêu một số cách bảo quản thực phẩm.",
+    "answer": "Làm lạnh/đông lạnh, phơi sấy khô, ướp muối, ngâm đường, đóng hộp, hút chân không…"
+   }
+  ],
+  "bai-16": [
+   {
+    "id": "16.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Vật thể chỉ chứa một chất duy nhất là",
+    "options": [
+     {
+      "text": "Áo sơ mi"
+     },
+     {
+      "text": "Bút chì"
+     },
+     {
+      "text": "Đôi giày"
+     },
+     {
+      "text": "Viên kim cương",
+      "correct": true
+     }
+    ],
+    "explain": "Kim cương chỉ gồm carbon; các vật còn lại làm từ nhiều chất.",
+    "hints": []
+   },
+   {
+    "id": "16.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Hỗn hợp nào sau đây là huyền phù?",
+    "options": [
+     {
+      "text": "Nước muối"
+     },
+     {
+      "text": "Nước phù sa",
+      "correct": true
+     },
+     {
+      "text": "Nước chè"
+     },
+     {
+      "text": "Nước máy"
+     }
+    ],
+    "explain": "Nước phù sa có hạt đất rắn lơ lửng, để lâu lắng xuống.",
+    "hints": []
+   },
+   {
+    "id": "16.3",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Hỗn hợp nào là dung dịch chỉ chứa một chất tan?",
+    "options": [
+     {
+      "text": "Nước mắm"
+     },
+     {
+      "text": "Sữa"
+     },
+     {
+      "text": "Nước chanh đường"
+     },
+     {
+      "text": "Nước đường",
+      "correct": true
+     }
+    ],
+    "explain": "Nước đường chỉ có một chất tan là đường.",
+    "hints": []
+   },
+   {
+    "id": "16.4",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Chất nào sau đây tan nhiều trong nước nóng?",
+    "options": [
+     {
+      "text": "Muối ăn",
+      "correct": true
+     },
+     {
+      "text": "Nến"
+     },
+     {
+      "text": "Dầu ăn"
+     },
+     {
+      "text": "Khí carbon dioxide"
+     }
+    ],
+    "explain": "Muối ăn tan nhiều hơn khi nước nóng; nến, dầu không tan; chất khí tan ít hơn khi nóng.",
+    "hints": []
+   },
+   {
+    "id": "16.6",
+    "type": "match",
+    "level": "hieu",
+    "prompt": "Nối hỗn hợp với đặc điểm.",
+    "pairs": [
+     {
+      "left": "Nước pha bột sắn",
+      "right": "Trắng đục, để lâu lắng bột trắng"
+     },
+     {
+      "left": "Nước muối",
+      "right": "Trong suốt, đun cạn còn bột rắn trắng"
+     },
+     {
+      "left": "Rượu",
+      "right": "Trong suốt, đun một thời gian không còn lại gì"
+     },
+     {
+      "left": "Nước trộn dầu ăn",
+      "right": "Tách thành 2 lớp chất lỏng"
+     }
+    ],
+    "explain": "Huyền phù lắng; dung dịch muối cô cạn còn muối; rượu bay hơi hết; nhũ tương dầu–nước tách lớp.",
+    "hints": []
+   },
+   {
+    "id": "16.8",
+    "type": "mcq",
+    "level": "vandung",
+    "prompt": "5 mL nước: urea tan tới thìa thứ 5, đường tới thìa thứ 10, bột phấn không tan ngay thìa đầu. Thứ tự khả năng tan tăng dần là",
+    "options": [
+     {
+      "text": "Phấn < urea < đường",
+      "correct": true
+     },
+     {
+      "text": "Urea < đường < phấn"
+     },
+     {
+      "text": "Đường < urea < phấn"
+     },
+     {
+      "text": "Phấn < đường < urea"
+     }
+    ],
+    "explain": "Càng hòa tan được nhiều thìa thì khả năng tan càng lớn.",
+    "hints": []
+   },
+   {
+    "id": "16.10",
+    "type": "mcq",
+    "level": "vandung",
+    "prompt": "Cứ 100 g nước biển có 3,5 g muối. Từ 1 tấn nước biển thu được bao nhiêu kg muối?",
+    "options": [
+     {
+      "text": "3,5 kg"
+     },
+     {
+      "text": "35 kg",
+      "correct": true
+     },
+     {
+      "text": "350 kg"
+     },
+     {
+      "text": "0,35 kg"
+     }
+    ],
+    "explain": "1 tấn = 1 000 kg; 1 000 × 3,5 : 100 = 35 kg.",
+    "hints": []
+   },
+   {
+    "id": "16.5",
+    "type": "essay",
+    "prompt": "Không khí là hỗn hợp đồng nhất hay không đồng nhất? Kể tên các chất có trong không khí.",
+    "answer": "Đồng nhất. Gồm nitrogen (~78%), oxygen (~21%), còn lại là carbon dioxide, hơi nước, khí hiếm…"
+   }
+  ],
+  "bai-17": [
+   {
+    "id": "17.1",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Đổ thóc trước quạt gió, thóc lép bị thổi bay ra là do thóc lép có",
+    "options": [
+     {
+      "text": "Khối lượng nhẹ hơn",
+      "correct": true
+     },
+     {
+      "text": "Kích thước hạt nhỏ hơn"
+     },
+     {
+      "text": "Tốc độ rơi nhỏ hơn"
+     },
+     {
+      "text": "Lớp vỏ trấu dễ tróc hơn"
+     }
+    ],
+    "explain": "Thóc lép nhẹ hơn nên bị gió thổi bay xa hơn.",
+    "hints": []
+   },
+   {
+    "id": "17.2",
+    "type": "mcq",
+    "level": "biet",
+    "prompt": "Việc nào là tách chất dựa theo sự khác nhau về kích thước hạt?",
+    "options": [
+     {
+      "text": "Giặt giẻ lau bảng bằng nước"
+     },
+     {
+      "text": "Dùng nam châm hút bột sắt"
+     },
+     {
+      "text": "Lọc nước vẩn đục bằng giấy lọc",
+      "correct": true
+     },
+     {
+      "text": "Ngâm dâu với đường"
+     }
+    ],
+    "explain": "Giấy lọc giữ lại hạt to, cho nước đi qua.",
+    "hints": []
+   },
+   {
+    "id": "17.3",
+    "type": "mcq",
+    "level": "hieu",
+    "prompt": "Bể lọc nước giếng khoan có cát mịn, sỏi, than củi. Nhận định nào KHÔNG đúng?",
+    "options": [
+     {
+      "text": "Cát mịn giữ các hạt đất, cát lại"
+     },
+     {
+      "text": "Lớp sỏi làm cho nước có vị ngọt",
+      "correct": true
+     },
+     {
+      "text": "Than củi hút chất hữu cơ, vi khuẩn"
+     },
+     {
+      "text": "Phải thau rửa đáy bể lọc định kì"
+     }
+    ],
+    "explain": "Sỏi chỉ giữ hạt to và đỡ các lớp khác, không làm nước ngọt.",
+    "hints": []
+   },
+   {
+    "id": "17.4",
+    "type": "match",
+    "level": "hieu",
+    "prompt": "Nối phương pháp tách chất với cơ sở của nó.",
+    "pairs": [
+     {
+      "left": "Lọc",
+      "right": "Khác nhau về kích thước hạt"
+     },
+     {
+      "left": "Chiết",
+      "right": "Khác nhau về khả năng tan trong các dung môi"
+     },
+     {
+      "left": "Cô cạn",
+      "right": "Khác nhau về tính bay hơi"
+     },
+     {
+      "left": "Lắng",
+      "right": "Khác nhau về mức độ nặng nhẹ"
+     }
+    ],
+    "explain": "Lọc – kích thước hạt; chiết – khả năng tan; cô cạn – bay hơi; lắng – nặng nhẹ.",
+    "hints": []
+   },
+   {
+    "id": "17.6",
+    "type": "essay",
+    "prompt": "Nêu cách thu nước muối sạch khi muối ăn lẫn hạt sạn không tan.",
+    "answer": "Hòa tan vào nước, khuấy đều; lọc bỏ sạn qua giấy lọc thu nước muối trong (muốn có muối khô thì cô cạn)."
+   },
+   {
+    "id": "17.5",
+    "type": "essay",
+    "prompt": "Đun vỏ chanh, làm lạnh hơi thu được hỗn hợp tinh dầu chanh và nước. Làm sao thu được tinh dầu?",
+    "answer": "Tinh dầu không tan trong nước và tách lớp: dùng phễu chiết, mở khóa cho nước chảy ra trước, giữ lại lớp tinh dầu."
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "_ghi_chu": "Câu mật mã cho trò Hack Mật Mã Mây: xếp các thẻ theo đúng thứ tự (items đã đúng thứ tự).",
+  "puzzles": [
+    { "id": "p1", "lesson": "bai-10", "prompt": "Xếp các thể của nước khi tăng dần nhiệt độ", "items": ["Nước đá (rắn)", "Nước lỏng", "Hơi nước (khí)"], "explain": "Đun nóng: rắn → lỏng (nóng chảy) → khí (bay hơi, sôi)." },
+    { "id": "p2", "lesson": "bai-10", "prompt": "Thí nghiệm đun nước đá: xếp các bước", "items": ["Cho đá vụn vào cốc", "Cắm nhiệt kế vào cốc", "Đun nhẹ", "Ghi nhiệt độ theo thời gian"], "explain": "Chuẩn bị rồi mới đun và ghi số liệu." },
+    { "id": "p3", "lesson": "bai-11", "prompt": "Xếp các khí trong không khí từ nhiều đến ít", "items": ["Nitrogen", "Oxygen", "Các khí khác"], "explain": "Khoảng 78% nitrogen, 21% oxygen, 1% khí khác." },
+    { "id": "p4", "lesson": "bai-13", "prompt": "Từ quặng sắt đến chiếc đinh", "items": ["Khai thác quặng", "Luyện thành thép", "Gia công thành đinh"], "explain": "Khai thác → chế biến → gia công." },
+    { "id": "p5", "lesson": "bai-13", "prompt": "Các bước làm viên gạch", "items": ["Nhào đất sét với nước", "Đóng khuôn", "Phơi khô", "Nung trong lò"], "explain": "Đất sét dẻo khi ướt, nung thì cứng." },
+    { "id": "p6", "lesson": "bai-14", "prompt": "Ngửi thấy mùi gas: việc cần làm", "items": ["Không bật công tắc điện", "Khóa van gas", "Mở cửa cho thoáng", "Báo người lớn"], "explain": "Tránh tia lửa, ngắt nguồn gas, làm loãng gas, nhờ người lớn." },
+    { "id": "p7", "lesson": "bai-14", "prompt": "Chảo dầu bốc cháy nhỏ: xử lí", "items": ["Tắt bếp", "Trùm vung hoặc khăn ướt lên chảo", "Chờ nguội rồi mới mở ra"], "explain": "Ngắt nhiệt và cách li oxygen; không dội nước vào dầu." },
+    { "id": "p8", "lesson": "bai-17", "prompt": "Thu muối sạch từ hỗn hợp cát, muối, nước", "items": ["Khuấy cho muối tan hết", "Lọc bỏ cát", "Cô cạn nước lọc"], "explain": "Tách chất không tan trước, rồi cô cạn." },
+    { "id": "p9", "lesson": "bai-17", "prompt": "Tách dầu ăn khỏi nước bằng phễu chiết", "items": ["Đổ hỗn hợp vào phễu chiết", "Để yên cho tách lớp", "Mở khóa cho nước chảy ra", "Khóa lại khi tới lớp dầu"], "explain": "Lớp dưới (nước) chảy ra trước." },
+    { "id": "p10", "lesson": "bai-17", "prompt": "Lọc nước đục", "items": ["Gấp giấy lọc đặt vào phễu", "Rót nước đục qua phễu", "Hứng nước trong ở cốc bên dưới"], "explain": "Giấy lọc giữ lại cặn bẩn." },
+    { "id": "p11", "lesson": "bai-17", "prompt": "Làm muối từ nước biển", "items": ["Dẫn nước biển vào ruộng", "Phơi nắng cho nước bay hơi", "Muối kết tinh", "Cào muối thành đống"], "explain": "Cô cạn bằng nắng và gió." },
+    { "id": "p12", "lesson": "bai-16", "prompt": "Pha nước đường tan nhanh", "items": ["Lấy nước ấm vào cốc", "Cho đường vào", "Khuấy đều"], "explain": "Nước ấm và khuấy giúp tan nhanh." }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "bai-14",
+  "status": "cho-duyet",
+  "title": "Một số nhiên liệu",
+  "zone": "Lò Nhiên Liệu",
+  "misconceptions": {
+    "NLI-THE": { "label": "Xếp nhầm thể của nhiên liệu", "tip": "Hỏi: nhiên liệu này đựng trong bao, can hay bình kín?" },
+    "NLI-MOI-CHAT": { "label": "Mọi chất đều là nhiên liệu", "tip": "Nhiên liệu phải cháy được và tỏa nhiều nhiệt; nước, cát không cháy." },
+    "NLI-CHI-XANG": { "label": "Nhiên liệu chỉ là xăng", "tip": "Kể thêm: than, củi, gas, cồn, biogas đều là nhiên liệu." },
+    "NLI-KHONG-CHAY": { "label": "Nhiên liệu không cháy", "tip": "Nhiên liệu là chất cháy được, tỏa nhiệt." },
+    "NLI-KHONG-CAN-OXY": { "label": "Nhiên liệu cháy không cần oxygen", "tip": "Đậy kín bếp than thì than tắt: sự cháy cần oxygen." },
+    "NLI-GAS-AN-TOAN": { "label": "Gas tuyệt đối an toàn", "tip": "Gas rò rỉ gặp lửa có thể gây cháy nổ." },
+    "NLI-XEP-KHIT": { "label": "Xếp củi khít giúp cháy mạnh", "tip": "Củi cần khe hở để không khí lưu thông." },
+    "NLI-NUOC-CUI": { "label": "Tưới nước làm củi cháy mạnh", "tip": "Nước hạ nhiệt và làm củi khó cháy." },
+    "NLI-NUOC-DAP-XANG": { "label": "Dùng nước dập được mọi đám cháy", "tip": "Xăng dầu nhẹ hơn nước, nổi lên và cháy lan; điện có thể giật." },
+    "NLI-QUAT-LUA": { "label": "Cho gió vào đám cháy giúp dập lửa", "tip": "Gió mang thêm oxygen làm lửa to hơn." },
+    "NLI-BAT-DIEN": { "label": "Bật điện khi ngửi thấy mùi gas", "tip": "Tia lửa nhỏ ở công tắc có thể làm gas bắt lửa." },
+    "NLI-BAT-LUA": { "label": "Bật bếp thử khi nghi rò gas", "tip": "Tuyệt đối không tạo lửa khi có mùi gas." },
+    "NLI-DONG-CUA-GAS": { "label": "Đóng kín cửa khi rò gas", "tip": "Mở cửa cho gas thoát ra, tránh tích tụ." },
+    "NLI-THAN-TAI-TAO": { "label": "Than đá, dầu mỏ là năng lượng tái tạo", "tip": "Nhiên liệu hóa thạch cần hàng triệu năm để hình thành." },
+    "NLI-LANG-PHI": { "label": "Nhầm việc tiết kiệm nhiên liệu", "tip": "Hỏi: việc này có đốt thêm nhiên liệu mà không cần thiết không?" },
+    "NLI-NHAM-NGUON": { "label": "Nhầm nguồn tạo ra nhiên liệu", "tip": "Chất thải chăn nuôi ủ trong hầm sinh ra biogas." }
+  },
+  "experiment": {
+    "id": "chay-nhien-lieu", "seed": "s2", "lab": "chay-nhien-lieu",
+    "title": "So sánh sự cháy và dập lửa an toàn",
+    "intro": "Đốt thử củi, than, cồn và khí gas trong lò thí nghiệm an toàn. So sánh ngọn lửa, khói và nhiệt. Sau đó chọn cách dập từng đám cháy nhỏ.",
+    "predict": { "prompt": "Nhiên liệu nào khi cháy sinh nhiều khói nhất?", "options": ["Khí gas", "Củi ẩm", "Cồn", "Như nhau"], "answer": 1 },
+    "conclude": {
+      "prompt": "Em rút ra điều gì?",
+      "options": ["Nhiên liệu khí cháy sạch, ít khói; muốn dập lửa phải cách li oxygen hoặc hạ nhiệt, không dùng nước với xăng dầu, điện.", "Nước dập được mọi đám cháy.", "Mọi nhiên liệu cháy giống hệt nhau."],
+      "good": [0], "keywords": ["khói", "oxygen", "cát", "chăn", "nước", "gas"]
+    }
+  },
+  "seeds": [
+    {
+      "id": "s1", "title": "Nhiên liệu rắn, lỏng, khí",
+      "theory": {
+        "picture": "🪵 ⛽ 🔥",
+        "intro": "Nhiên liệu là những chất cháy được, khi cháy tỏa nhiều nhiệt, dùng để đun nấu, chạy máy, phát điện.",
+        "points": [
+          "Nhiên liệu rắn: than, củi.",
+          "Nhiên liệu lỏng: xăng, dầu hỏa, cồn.",
+          "Nhiên liệu khí: khí gas, khí thiên nhiên, biogas.",
+          "Nhiên liệu khí dễ cháy hoàn toàn, ít khói; nhiên liệu rắn thường nhiều khói, tro."
+        ],
+        "card": "Nhiên liệu cháy được, tỏa nhiệt. Rắn: than, củi. Lỏng: xăng, dầu, cồn. Khí: gas, biogas."
+      },
+      "questions": [
+        { "id": "q1", "level": "biet", "type": "classify",
+          "prompt": "Xếp mỗi nhiên liệu vào đúng thể.",
+          "groups": ["Rắn", "Lỏng", "Khí"],
+          "items": [
+            { "text": "Than đá", "group": 0, "code": "NLI-THE" },
+            { "text": "Củi", "group": 0, "code": "NLI-THE" },
+            { "text": "Xăng", "group": 1, "code": "NLI-THE" },
+            { "text": "Cồn", "group": 1, "code": "NLI-THE" },
+            { "text": "Khí gas", "group": 2, "code": "NLI-THE" },
+            { "text": "Biogas", "group": 2, "code": "NLI-THE" }
+          ],
+          "hints": ["Nhiên liệu nào cầm được bằng tay?", "Nhiên liệu nào phải đựng trong can, chai?", "Gas, biogas chứa trong bình kín hoặc hầm."],
+          "explain": "Than, củi là nhiên liệu rắn; xăng, cồn là nhiên liệu lỏng; khí gas, biogas là nhiên liệu khí." },
+        { "id": "q2", "level": "hieu", "type": "mcq",
+          "prompt": "Nhiên liệu là gì?",
+          "options": [
+            { "text": "Chất cháy được, khi cháy tỏa nhiều nhiệt, dùng để cung cấp năng lượng", "correct": true },
+            { "text": "Mọi chất quanh ta đều là nhiên liệu", "code": "NLI-MOI-CHAT" },
+            { "text": "Chỉ là xăng dùng cho xe máy", "code": "NLI-CHI-XANG" },
+            { "text": "Chất không cháy, dùng để dập lửa", "code": "NLI-KHONG-CHAY" }
+          ],
+          "hints": ["Than, củi, gas có điểm gì chung?", "Chúng đều cháy được.", "Khi cháy chúng tỏa nhiệt để đun nấu, chạy máy."],
+          "explain": "Nhiên liệu là chất cháy được và tỏa nhiều nhiệt, dùng để đun nấu, sưởi ấm, chạy động cơ, phát điện." },
+        { "id": "q3", "level": "vandung", "type": "mcq",
+          "prompt": "Vì sao ở thành phố nhiều gia đình dùng bếp gas thay bếp củi?",
+          "options": [
+            { "text": "Gas cháy sạch, ít khói, dễ điều chỉnh ngọn lửa", "correct": true },
+            { "text": "Gas cháy không cần oxygen", "code": "NLI-KHONG-CAN-OXY" },
+            { "text": "Gas tuyệt đối không bao giờ nguy hiểm", "code": "NLI-GAS-AN-TOAN" },
+            { "text": "Củi không cháy được", "code": "NLI-KHONG-CHAY" }
+          ],
+          "hints": ["Đun bằng củi trong nhà chật thì sao?", "So sánh khói của bếp củi và bếp gas.", "Gas cháy sạch, chỉnh lửa bằng núm vặn."],
+          "explain": "Khí gas cháy gần như hoàn toàn nên ít khói, ít tro, dễ điều chỉnh ngọn lửa, phù hợp với nhà ở thành phố. Tuy vậy vẫn phải dùng gas an toàn." }
+      ]
+    },
+    {
+      "id": "s2", "title": "Cháy và an toàn",
+      "theory": {
+        "picture": "🔥 🧯 🪣",
+        "intro": "Muốn nhiên liệu cháy tốt cần đủ oxygen. Muốn dập lửa thì cách li chất cháy với oxygen hoặc hạ nhiệt độ.",
+        "points": [
+          "Cháy hiệu quả: chẻ nhỏ, xếp thưa nhiên liệu để có nhiều không khí.",
+          "Cháy thiếu oxygen sinh khí carbon monoxide rất độc.",
+          "Dập lửa: phủ cát, trùm chăn ướt, dùng bình chữa cháy, khóa van gas.",
+          "Không dùng nước dập đám cháy xăng dầu hoặc đồ điện đang có điện."
+        ],
+        "card": "Cháy cần oxygen. Dập lửa: cách li oxygen (cát, chăn ướt) hoặc hạ nhiệt. Không dùng nước với xăng dầu, điện."
+      },
+      "questions": [
+        { "id": "q1", "level": "biet", "type": "mcq",
+          "prompt": "Muốn bếp củi cháy mạnh, ta nên làm gì?",
+          "options": [
+            { "text": "Chẻ nhỏ củi, xếp thưa để không khí lưu thông", "correct": true },
+            { "text": "Xếp củi thật khít vào nhau", "code": "NLI-XEP-KHIT" },
+            { "text": "Tưới một ít nước lên củi", "code": "NLI-NUOC-CUI" },
+            { "text": "Đậy kín miệng bếp", "code": "NLI-KHONG-CAN-OXY" }
+          ],
+          "hints": ["Sự cháy cần gì từ không khí?", "Khe hở giữa các thanh củi để làm gì?", "Củi nhỏ, xếp thưa thì tiếp xúc nhiều oxygen."],
+          "explain": "Chẻ nhỏ và xếp thưa giúp củi tiếp xúc với nhiều không khí (oxygen) nên cháy mạnh, ít khói." },
+        { "id": "q2", "level": "hieu", "type": "classify",
+          "prompt": "Cách dập lửa nào dùng được, cách nào không được dùng?",
+          "groups": ["Dùng được", "Không được dùng"],
+          "items": [
+            { "text": "Phủ cát lên đám cháy xăng nhỏ", "group": 0, "code": "NLI-NUOC-DAP-XANG" },
+            { "text": "Dội nước vào đám cháy xăng", "group": 1, "code": "NLI-NUOC-DAP-XANG" },
+            { "text": "Trùm chăn ướt lên chảo dầu bốc cháy", "group": 0, "code": "NLI-NUOC-DAP-XANG" },
+            { "text": "Dội nước vào ổ điện đang cháy", "group": 1, "code": "NLI-NUOC-DAP-XANG" },
+            { "text": "Khóa van gas khi lửa bén ra ngoài bếp", "group": 0, "code": "NLI-GAS-AN-TOAN" },
+            { "text": "Mở toang cửa cho gió thổi vào đám cháy", "group": 1, "code": "NLI-QUAT-LUA" }
+          ],
+          "hints": ["Cách nào ngăn oxygen tới đám cháy?", "Xăng dầu nổi trên nước và cháy lan.", "Nước dẫn điện, dễ bị điện giật."],
+          "explain": "Phủ cát, trùm chăn ướt, khóa van gas đều cách li chất cháy với oxygen hoặc nguồn nhiên liệu. Không dội nước vào xăng dầu, điện; không cho gió thổi vào làm lửa to hơn." },
+        { "id": "q3", "level": "vandung", "type": "mcq",
+          "prompt": "Vào bếp, em ngửi thấy mùi gas. Em nên làm gì trước tiên?",
+          "options": [
+            { "text": "Không bật công tắc điện, mở cửa cho thoáng, khóa van gas và báo người lớn", "correct": true },
+            { "text": "Bật đèn lên để tìm chỗ rò", "code": "NLI-BAT-DIEN" },
+            { "text": "Bật bếp thử xem còn gas không", "code": "NLI-BAT-LUA" },
+            { "text": "Đóng kín cửa để mùi khỏi bay ra", "code": "NLI-DONG-CUA-GAS" }
+          ],
+          "hints": ["Gas gặp tia lửa thì sao?", "Công tắc điện có thể tạo tia lửa nhỏ.", "Cần làm loãng gas và báo người lớn."],
+          "explain": "Gas rò gặp tia lửa có thể cháy nổ. Không bật điện, không tạo lửa; mở cửa cho gas thoát ra, khóa van và báo người lớn." }
+      ]
+    },
+    {
+      "id": "s3", "title": "Tiết kiệm và nhiên liệu thay thế",
+      "theory": {
+        "picture": "☀️ 🌬️ 💧",
+        "intro": "Than đá, dầu mỏ, khí thiên nhiên có hạn và khi cháy gây ô nhiễm. Cần tiết kiệm và dùng năng lượng tái tạo.",
+        "points": [
+          "Năng lượng tái tạo: mặt trời, gió, nước, sinh khối, biogas.",
+          "Tiết kiệm: tắt bếp khi nấu xong, chỉnh lửa vừa đủ, đi bộ, đi xe đạp.",
+          "Biogas được tạo ra từ chất thải chăn nuôi ủ trong hầm kín."
+        ],
+        "card": "Nhiên liệu hóa thạch có hạn. Tiết kiệm và dùng năng lượng tái tạo: mặt trời, gió, nước, biogas."
+      },
+      "questions": [
+        { "id": "q1", "level": "biet", "type": "mcq",
+          "prompt": "Nguồn năng lượng nào là năng lượng tái tạo?",
+          "options": [
+            { "text": "Năng lượng mặt trời", "correct": true },
+            { "text": "Than đá", "code": "NLI-THAN-TAI-TAO" },
+            { "text": "Dầu mỏ", "code": "NLI-THAN-TAI-TAO" },
+            { "text": "Khí thiên nhiên", "code": "NLI-THAN-TAI-TAO" }
+          ],
+          "hints": ["Nguồn nào dùng mãi không hết?", "Than, dầu cần hàng triệu năm để hình thành.", "Mặt trời chiếu sáng mỗi ngày."],
+          "explain": "Năng lượng mặt trời liên tục được tạo ra nên là năng lượng tái tạo. Than đá, dầu mỏ, khí thiên nhiên là nhiên liệu hóa thạch, có hạn." },
+        { "id": "q2", "level": "hieu", "type": "classify",
+          "prompt": "Việc nào tiết kiệm nhiên liệu, việc nào lãng phí?",
+          "groups": ["Tiết kiệm", "Lãng phí"],
+          "items": [
+            { "text": "Nấu xong tắt bếp ngay", "group": 0, "code": "NLI-LANG-PHI" },
+            { "text": "Để lửa thật to khi nấu ít thức ăn", "group": 1, "code": "NLI-LANG-PHI" },
+            { "text": "Đi bộ tới trường gần nhà", "group": 0, "code": "NLI-LANG-PHI" },
+            { "text": "Nổ máy xe chờ rất lâu", "group": 1, "code": "NLI-LANG-PHI" },
+            { "text": "Dùng nồi có đáy vừa với bếp", "group": 0, "code": "NLI-LANG-PHI" },
+            { "text": "Để bếp gas cháy khi không nấu", "group": 1, "code": "NLI-LANG-PHI" }
+          ],
+          "hints": ["Việc nào đốt nhiên liệu mà không cần?", "Lửa tràn ra ngoài đáy nồi là phí.", "Tắt bếp, đi bộ, chỉnh lửa vừa đủ là tiết kiệm."],
+          "explain": "Tắt bếp kịp thời, đi bộ, dùng nồi vừa bếp giúp tiết kiệm. Lửa quá to, nổ máy chờ lâu, để bếp cháy không là lãng phí." },
+        { "id": "q3", "level": "vandung", "type": "mcq",
+          "prompt": "Gia đình nuôi nhiều lợn có thể tận dụng chất thải chăn nuôi để làm gì?",
+          "options": [
+            { "text": "Ủ trong hầm kín để tạo khí biogas dùng đun nấu", "correct": true },
+            { "text": "Chế biến thành xăng cho xe máy", "code": "NLI-NHAM-NGUON" },
+            { "text": "Biến thành than đá", "code": "NLI-NHAM-NGUON" },
+            { "text": "Không tận dụng được gì", "code": "NLI-NHAM-NGUON" }
+          ],
+          "hints": ["Nhiên liệu khí nào có chữ 'bio'?", "Chất thải ủ kín sẽ sinh ra khí.", "Đó là biogas."],
+          "explain": "Chất thải chăn nuôi ủ trong hầm kín sinh ra biogas, dùng để đun nấu, vừa tiết kiệm vừa giảm ô nhiễm." }
+      ]
+    }
+  ]
+}
