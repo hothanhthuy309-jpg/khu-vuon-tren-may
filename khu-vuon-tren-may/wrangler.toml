@@ -1,5 +1,0 @@
-# Cấu hình cho Cloudflare Pages (không cần bước build)
-name = "khu-vuon-tren-may"
-pages_build_output_dir = "."
-compatibility_date = "2025-01-01"
-compatibility_flags = ["nodejs_compat"]
