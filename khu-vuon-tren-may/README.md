@@ -5,6 +5,22 @@ Code thuần HTML/CSS/JS: **không cần cài thư viện, không cần build**.
 
 **Admin tổng: hothanhthuy309@gmail.com** (đã ghi sẵn trong `supabase/schema.sql` và `js/config.js`). Cô đăng kí tài khoản thầy cô bằng đúng email này thì sẽ thấy mục **Quản trị**.
 
+## Phiên bản 5.1
+- Báo cáo: bảng % đúng đổi thành đồ thị thanh so sánh từng em (lọc theo bài, có trung bình lớp).
+- Màn chọn tên: trải ngang toàn màn hình, tất cả tên trong một khung, không cuộn.
+- Trò chuyện lớp: che thêm từ bạo lực, xúc phạm; chặn đường link, chữ lặp, chữ gõ linh tinh. Cần chạy lại schema.sql.
+
+## Phiên bản 5.0
+- Trò chơi cả lớp: cô chọn thời gian mỗi câu 15/20/25/35 giây; mỗi em tự đi theo tốc độ riêng, trả lời xong (đúng hay sai) tự sang câu tiếp, không chờ bạn. Màn chiếu của cô hiện bảng xếp hạng cả lớp (số câu đã làm, số câu đúng). Cần chạy lại schema.sql.
+- Màn chọn tên khi đăng nhập chiếm toàn màn hình.
+
+## Phiên bản 4.9
+- Cô mở Hack Mật Mã Mây / Đua khinh khí cầu hoặc giao bài kiểm tra (đầu bài, cuối bài, bài cô giao) thì tất cả học sinh đang online tự động được đưa vào (trong khoảng 8 giây).
+- Màn chọn tên khi đăng nhập: tên xếp hàng ngang, khung rộng, dễ nhìn.
+
+## Phiên bản 4.8
+- Web không mở được thì hiện lời nhắn kèm tên file bị lỗi, thay vì trang trắng.
+
 ## Phiên bản 4.7
 - 📘 Sách bài tập KHTN 6 (Bài 9–17): 49 bài trong `data/sbt.json` (31 trắc nghiệm, nối, điền từ tự chấm; tự luận có đáp án gợi ý). Vào từ trang mỗi khu bài học. Câu trắc nghiệm SBT cũng được dùng trong trò chơi, cỏ dại, UFO. Làm xong cả bài +1 hạt mây.
 
@@ -141,3 +157,133 @@ api/tini.js           hàm Vercel gọi Gemini/Groq cho Tí Nị
 data/*.json           nội dung
 supabase/schema.sql   bảng, RLS, hàm cho học sinh, trò chơi, quản trị
 ```
+
+## Phiên bản 5.2
+- Cô giao bài kiểm tra: học sinh đăng nhập phải làm bài trước mới vào được giao diện chính.
+- Câu hỏi ít lặp hơn: mỗi em bắt đầu ở một vị trí khác trong trò chơi cả lớp; trò chơi riêng ưu tiên câu em chưa gặp.
+- Đảo giam giữ: tổng kết vào Chủ nhật hằng tuần (không vào học, nhắn bậy, không làm bài được giao) và ghi rõ lý do.
+- Nhạc Hack và Đua khinh khí cầu nhanh, dồn dập hơn.
+- Gợi ý của Tí Nị: câu nào cũng có nút ✅ Duyệt.
+- Gọi kiểm tra bài cũ: UFO và Đua vịt chỉ bốc tên, không hỏi câu nào.
+- Báo cáo có biểu đồ cột so sánh theo ngày (14 ngày).
+- Dọn cỏ, làm thí nghiệm và mô phỏng đều nhận giọt mây.
+- Tính điểm: đúng ngay lần đầu được đủ điểm, mỗi lần sai bị trừ 25% (thấp nhất còn 25%).
+- Trò chơi cả lớp: chọn "Nội dung có sẵn" hoặc "Bộ câu hỏi của cô".
+- **Cần chạy lại supabase/schema.sql.**
+
+## Phiên bản 5.3
+- Gộp Đảo Thí Nghiệm và Đảo Mô Phỏng thành một đảo, có đủ thí nghiệm của mọi bài; bỏ ô "Phòng thí nghiệm mây" trong trang bài học.
+- Lò Mây và Xây nhà: thu hoạch hạt mây của bất kì bài nào (từ Bài 9) đều được thêm 1 nguyên liệu xây nhà; đơn nhà đầy đủ luôn mở.
+- Em bị giam bị nhốt ngay trong nhà giam trên bản đồ.
+- Thông báo của cô (Lớp của tôi → Tổng quan): dòng chữ chạy trên màn hình học sinh, tự tắt sau 24 giờ.
+- Bạn nam có thêm: quần đùi, quần dài jean, quần dài kaki.
+- Sửa lỗi bản xem thử không lưu cài đặt của cô.
+- Không cần chạy lại schema.sql (nếu đã chạy ở bản 5.2).
+
+## Phiên bản 5.4
+- Nhạc trò chơi cả lớp mới, dồn dập.
+- Trả lời xong tự sang câu mới ngay.
+- Hướng dẫn sử dụng cho học sinh (nút ❓).
+- Trò chơi cả lớp: chỉ cô kết thúc được.
+- iPad: nút mũi tên, chạy mượt hơn.
+- Chặn thêm từ tục; nói tục bị nhốt vào nhà giam.
+- Bác Giọt Sương: nhiệm vụ hằng ngày.
+- Duyệt gợi ý theo từng bậc.
+
+## Phiên bản 5.5
+- Thêm ngân hàng câu hỏi Bài 9 (17 câu), Bài 10 (20 câu), Bài 11 (20 câu) vào data/sbt.json: dùng cho Sách bài tập, trò chơi, Đảo Giam Giữ, nhiệm vụ Bác Giọt Sương.
+
+## Phiên bản 5.6
+- Nút di chuyển sang bên phải, khung chat bên trái.
+- Thông báo khẩn (Lớp của tôi → Tổng quan): chữ đỏ nhấp nháy, phát liên tục đến khi cô tắt.
+- Cấm thêm từ: gay, lgbt, bê đê, thằng lọ…; nói bậy bị giam và ghi lý do.
+
+## Phiên bản 5.7
+- Sửa thí nghiệm trên iPad/máy cảm ứng: bỏ thu nhỏ zoom ở trang có 3D (Safari tính sai chỗ chạm), giảm độ nét, tắt đổ bóng, tự xoay màn hình, máy yếu tự chuyển hình 2D; vương quốc 3D dừng vẽ khi đang mở thí nghiệm.
+
+## Phiên bản 5.8
+- Trò chơi cả lớp có âm thanh: nhạc thi đấu luôn bật khi vào phòng (kể cả khi cô tắt nhạc lớp), to hơn; hiệu ứng đúng/sai đáng yêu, đếm ngược tích tắc 5 giây cuối mỗi câu; màn chiếu của cô có tiếng 3-2-1 bắt đầu, tiếng pop khi có bạn trả lời đúng, kèn khi đổi người dẫn đầu, tích tắc 10 giây cuối.
+
+## Phiên bản 5.9
+- iPad: thí nghiệm không còn chặn vuốt cuộn (máy cảm ứng không xoay hình 3D), nút "Sang câu hỏi" luôn hiện và tự cuộn tới; trang dài cuộn mượt.
+- Trò Đúng hay Sai, Lật thẻ, Đập chuột bỏ các câu dạng "không đúng / sai / cả 3 đáp án trên" (tách đáp án ra khỏi câu hỏi sẽ bị hiểu sai).
+- Thêm Xóa lớp học (Lớp của tôi → Tổng quan, phải gõ đúng tên lớp).
+- Màn chiếu trò chơi của cô: nhạc tự bật, có nút bật/tắt nhạc.
+
+## Phiên bản 6.0
+- Cỏ dại quảng trường: tối đa 12 bụi, 1 phút mọc thêm 1 bụi; câu hỏi lấy cả câu hạt giống, Sách bài tập và ngân hàng câu hỏi, ít lặp lại.
+- Tủ đồ: sửa lỗi đổi màu (váy đổi theo Màu áo/váy, thêm Màu quần cho bạn nam); thêm Kiểu tóc (5 kiểu nam, 5 kiểu nữ), Giày, Cặp & túi, Huy hiệu sticker gắn áo.
+
+## Phiên bản 6.1
+- Nhân vật cute hơn: chất liệu hoạt hình, mắt to long lanh, lông mi (bạn nữ), má hồng, miệng cười, tai.
+- Luôn ưu tiên 3D: không tự mở bản đồ 2D; nếu 3D chưa mở được thì hiện nút Thử lại 3D / Mở bản đồ 2D.
+- Thú cưng (🐾 trong thanh dưới): mua bằng giọt mây, đặt tên, cho ăn, bé đi theo nhân vật trong 3D.
+- Hồ câu cá (🎣): mỗi con cá là một câu hỏi, đúng thì câu được cá và nhận giọt mây.
+
+## Phiên bản 6.2
+- Sửa mất âm thanh: mở khóa âm thanh ở lần chạm/bấm đầu tiên trên mọi máy (iPad, điện thoại, máy tính), tự bật lại nhạc nền khi quay lại tab; âm lượng mặc định to hơn (8%).
+
+## Phiên bản 6.3
+- Đăng nhập trên điện thoại gọn, vừa màn hình: tên học sinh xếp 2 cột, ô nhập chữ to, không bị che.
+- Hồ câu cá và Nhà thú cưng: thêm biển chỉ dẫn ở quảng trường 3D; thanh dưới vuốt ngang được nên không bị mất nút; bản đồ 2D cũng có nút Câu cá, Thú cưng, Trò chơi.
+
+## Phiên bản 6.4
+- Quảng trường 3D có Hồ câu cá (cá bơi, lá sen, cần câu) và Nhà thú cưng (mái hồng, mèo con nhảy) ở phía sau tượng giữa; bấm vào là đi tới.
+- Trình duyệt luôn tải bản mới nhất của web (không giữ file cũ).
+
+## Phiên bản 6.5
+- Sửa Hồ câu cá không thấy cá trên máy tắt hiệu ứng chuyển động (Windows): cá bơi bằng JS; thêm dòng hướng dẫn câu cá. Thông báo của cô vẫn hiện trên các máy này.
+
+## Phiên bản 6.6
+- Vườn Mây làm lại kiểu nông trại vui vẻ: đất vuông, hàng rào gỗ, luống cày có rãnh, chuồng đỏ, tháp ủ, nhà vàng, chuồng bò–lợn–cừu, gà, rơm, bù nhìn, viền cây ăn quả.
+- Sửa mất thú cưng (và giỏ cá, nhiệm vụ…) khi đăng xuất/đăng nhập lại.
+- Thú cưng ăn: hạt (1💧), bánh mây (3💧), cá câu được, rau củ thu hoạch; mỗi bé có món khoái khẩu; lớn dần 4 giai đoạn, to dần trong 3D.
+- Đảo Giam Giữ: trả lời sai bị mất 1 ổ khóa, câu sai quay lại, phải đọc đáp án 3 giây mới bấm tiếp.
+
+## Phiên bản 6.7
+- Hoàn thành bài cô giao: tặng 2 hạt mây.
+- Khảo sát học sinh (Lớp của tôi → Tổng quan): cô bật thì học sinh phải đánh giá xong (6 câu mặt cười + góp ý) mới dùng được chức năng khác; cô xem điểm trung bình từng câu và góp ý.
+
+## Phiên bản 6.8
+- Nhân vật chibi: đầu to 1,3 lần, giày thể thao to có đế trắng, tất cao cổ; thêm Hoodie tai mèo, tai cáo (có đuôi), gấu; tóc bạc.
+- NPC mới dạng chibi: Cô Thợ Mây (hoodie cáo, mũ lưỡi trai, ủng, cầm búa), Ông Kể Chuyện (hoodie gấu, tóc bạc, râu, kính, cầm sách và gậy).
+
+## Phiên bản 6.9
+- Quản trị: nút ✏️ Cập nhật cho từng admin (đổi email, đổi quyền admin phụ ↔ admin tổng). Không sửa được tài khoản admin chính.
+- Thú cưng lớn dần sau mỗi lần cho ăn (to ra liên tục, hiện chiều cao và điểm lớn, có hiệu ứng lớn lên); trong 3D bé cũng to dần.
+
+## Phiên bản 7.0
+- Thú cưng đổi hình dạng theo tuổi (3D): Em bé đầu to không chân → Thiếu niên có chân, vòng cổ xanh → Lớn khỏe chân cao, thân dài, đuôi dài → Trưởng thành có vòng cổ đỏ, chuông vàng, vương miện.
+
+## Phiên bản 7.1
+- Bỏ giới hạn 80 giọt mây mỗi ngày.
+
+## Phiên bản 7.2
+- 🃏 Bộ sưu tập 12 thẻ chất hóa học (Thường/Hiếm/Siêu hiếm/Huyền thoại): rơi khi học xong hạt, câu cá, làm nhiệm vụ, đánh Boss; đủ bộ +50💧 và huy hiệu 🏅.
+- 🎯 Nhiệm vụ hằng ngày (3 nhiệm vụ/ngày, +3💧 mỗi nhiệm vụ) và chuỗi ngày học (7 ngày liền +20💧 và 1 thẻ).
+- 👾 Boss cả lớp: cô triệu hồi ở Lớp của tôi → Tổng quan, cả lớp trả lời đúng để trừ máu; thắng mỗi em +15💧 và 1 thẻ.
+
+## Phiên bản 7.3
+- Thú cưng đúng loài: rồng không chân, bay lơ lửng, thân dài uốn lượn, sừng và cánh lớn dần; gà 2 chân mảnh, có cánh, mào khi lớn; khủng long 2 chân sau to + 2 tay ngắn; mèo, cún, thỏ 4 chân.
+- ⏱️ Kiểm tra 15 phút (Trò chơi và kiểm tra): trắc nghiệm máy tự chấm + tự luận cô chấm; đồng hồ 15 phút, hết giờ tự nộp; học sinh phải làm xong mới dùng chức năng khác; trang Chấm bài: nhập điểm tự luận, nhận xét, Xuất Excel, Công bố điểm cho học sinh xem.
+
+## Phiên bản 7.4
+- Bộ câu hỏi của tôi: thêm loại câu Đúng/Sai và Tự luận (có gợi ý đáp án, điểm). Dán Excel: ĐS | phát biểu | Đúng/Sai | giải thích; TL | câu hỏi | gợi ý | điểm. Câu Đúng/Sai dùng được trong trò chơi, giao bài, kiểm tra 15 phút; câu tự luận vào phần cô chấm của bài 15 phút.
+
+## Phiên bản 7.5 (CẦN CHẠY LẠI supabase/schema.sql)
+- Tự luận: mỗi câu một khung (giữ nguyên a, b, c trong cùng một câu), ở cả Kiểm tra 15 phút và Bộ câu hỏi.
+- Bộ câu hỏi tự lưu sau khi dán Excel, nhập file hoặc Tí Nị soạn nháp.
+- 🔔 Rung chuông vàng liên lớp: chọn nhiều lớp (hoặc thầy cô khác nhập mã phòng để đưa lớp vào), sai là rời sàn, cô công bố đáp án từng câu, cứu trợ cả sàn; bạn trụ đến cuối +20💧.
+
+## Phiên bản 7.6 – Chạy trên Cloudflare Pages
+Đã thêm: `functions/api/tini.js` (AI Tí Nị, giọng đọc), `_headers` (luôn tải bản mới), `wrangler.toml`. Vẫn chạy được trên Vercel như cũ.
+1. Đưa thư mục dự án (chứa `index.html`) lên GitHub.
+2. Cloudflare → Workers & Pages → Create → Pages → Connect to Git → chọn kho.
+   - Framework preset: None · Build command: để trống · Build output directory: `/` (nếu index.html nằm trong thư mục con thì ghi tên thư mục đó, đặt Root directory tương ứng).
+3. Settings → Variables and Secrets: thêm SUPABASE_URL, SUPABASE_ANON_KEY, GEMINI_API_KEY (tùy chọn GROQ_API_KEY, TINI_DAILY_LIMIT) → Deploy lại.
+4. Supabase → Authentication → URL Configuration: thêm địa chỉ `https://<tên>.pages.dev` vào Site URL / Redirect URLs.
+
+## Phiên bản 7.7 (CẦN CHẠY LẠI supabase/schema.sql) – tiết kiệm băng thông Supabase
+- Học sinh hỏi thăm máy chủ bằng 1 gói rất nhỏ (student_poll) 10–15 giây/lần, chỉ tải lại cài đặt lớp khi cô thay đổi; tab ẩn thì ngừng hỏi.
+- Trò chơi cả lớp, Rung chuông vàng: 1,5 giây/lần (trước 1 giây), tab ẩn thì ngừng.
+- Vị trí nhân vật gửi 0,4 giây/lần (trước 0,15 giây); trang Hôm nay của cô làm mới 60 giây/lần.
