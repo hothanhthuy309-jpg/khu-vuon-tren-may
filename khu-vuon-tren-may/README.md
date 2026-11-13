@@ -287,3 +287,6 @@ supabase/schema.sql   bảng, RLS, hàm cho học sinh, trò chơi, quản trị
 - Học sinh hỏi thăm máy chủ bằng 1 gói rất nhỏ (student_poll) 10–15 giây/lần, chỉ tải lại cài đặt lớp khi cô thay đổi; tab ẩn thì ngừng hỏi.
 - Trò chơi cả lớp, Rung chuông vàng: 1,5 giây/lần (trước 1 giây), tab ẩn thì ngừng.
 - Vị trí nhân vật gửi 0,4 giây/lần (trước 0,15 giây); trang Hôm nay của cô làm mới 60 giây/lần.
+
+## Phiên bản 7.8
+- Giọng đọc Ông Kể Chuyện ưu tiên lấy từ thư mục voices/ của web (không tốn băng thông Supabase). Quản trị → Giọng đọc: nút ⬇️ Tải về / ⬇️ Tải tất cả để lấy file từ Supabase, rồi bỏ vào voices/ trên GitHub.
